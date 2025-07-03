@@ -1,21 +1,21 @@
 _inputs:
   $:
     type: object
-    comment: "[about/](https://exotic-bison.cloudvent.net/about/)  //  [Git
-      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
-      /translations/nl/about.yaml)"
+    comment: >-
+      [about/](https://exotic-bison.cloudvent.net/about/)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey/translations/nl/about.yaml)
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[about/](https://exotic-bison.cloudvent.net/about/)  //  [Git
-            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
-            /rosey/translations/nl/about.yaml)"
+          comment: >-
+            [about/](https://exotic-bison.cloudvent.net/about/)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey/translations/nl/about.yaml)
           inputs: []
         - heading: Already translated (nl)
-          comment: "[about/](https://exotic-bison.cloudvent.net/about/)  //  [Git
-            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
-            /rosey/translations/nl/about.yaml)"
+          comment: >-
+            [about/](https://exotic-bison.cloudvent.net/about/)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey/translations/nl/about.yaml)
           inputs:
             - About
   About:
@@ -23,6 +23,6 @@ _inputs:
     hidden: false
     type: text
     options: {}
-    comment: "[See in context](https://exotic-bison.cloudvent.net/about/#:~:text=About)"
-urlTranslation: about/index.html
+    comment: '[See in context](https://exotic-bison.cloudvent.net/about/#:~:text=About)'
+urlTranslation: over/index.html
 About: Over
