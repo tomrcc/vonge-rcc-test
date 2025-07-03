@@ -5,7 +5,7 @@ npx @bookshop/generate
 
 if [[ $ROSEYPROD != "true" ]];
 then
-  node rosey-tagger/main.mjs
+  node rosey-tagger/main.mjs --source _site
   npx rosey generate --source _site
   node rosey-connector/main.mjs
 fi

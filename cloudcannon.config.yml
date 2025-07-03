@@ -71,6 +71,21 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+  translations:
+    path: rosey
+    icon: translate
+    disable_url: true
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: false
+    glob:
+      - config.yaml
+      - 'translations/**'
+    _inputs:
+      urlTranslation:
+        type: text
+        comment: Provide a translation for the Url that Rosey will build this page at.
+
 collection_groups:
   - heading: Content
     collections:
@@ -81,9 +96,10 @@ collection_groups:
     collections:
       - posts
       - drafts
-  - heading: Settings
+  - heading: Data
     collections:
       - data
+      - translations
 _inputs:
   tags:
     type: multiselect
@@ -91,8 +107,5 @@ _inputs:
       allow_create: true
       empty_type: array
     cascade: true
-_structures:
-  content_blocks:
-    style: modal
-data_config: true
+
 timezone: Etc/UTC
