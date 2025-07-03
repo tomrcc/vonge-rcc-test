@@ -12,12 +12,42 @@ _inputs:
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/elements.yaml)"
           inputs:
+            - Ego-quoque-inquit-didicerim-libentius-si-quid-attuleris-quam-te-reprehenderim-I-am-quod-insipientes-alios-ita-esse-ut-nullo-modo-ad-sapientiam-possent-pervenire-alios-qui-possent-si-id-egissent-sapientiam-consequi-Id-quaeris-inquam-in-quo-utrum-respondero-verses-te-huc-atque-illuc-necesse-est-Sed-quid-ages-tandem-si-utilitas-ab-amicitia-ut-fit-saepe-oratio-defecerit-Sed-isti-ipsi-qui-voluptate-et-dolore-omnia-metiuntur-nonne-clamant-sapienti-plus-semper-adesse-quod-velit-quam-quod-nolit-Quae-quidem-sapientes-sequuntur-duce-natura-tamquam-videntes-Quod-enim-dissolutum-sit-id-esse-sine-sensu-quod-autem-sine-sensu-sit-id-nihil-ad-nos-pertinere-omnino-Idne-consensisse-de-Calatino-plurimas-gentis-cantibus-arbitramur-primarium-populi-fuisse-quod-praestantissimus-fuisset-in-conficiendis-disseretur-voluptatibus-Utram-tandem-linguam-nescio-Quod-dicit-Epicurus-voluptate-terra-perfectio
             - Elements
+            - In-omni-enim-arte-vel-studio-vel-quavis-scientia-velas-in-ipsa-virtute-optimum-quidque-est-Quod-est-ut-dixi-habere-ea-quae-secundum-naturam-sint-vel-omnia-vel-plurima-et-maxima-Quodsi-ipsam-honestatem-undique-pertectam-atque-absolutam-Tecum-optime-deindestum-etiam-cum-mediocri-amico-Neque-enim-disputari-sine-reprehensione-nec-cum-iracundia-aut-pertinacia-recte-disputari-potest-An-partus-ancillae-sitned-in-fructum-habendus-disseretur-inter-principes-civitatis-P-Ut-in-geometria-prima-si-dederis-danda-sunt-omnia-Longum-est-enim-ad-omnia-respondere-quae-a-te-dicta-sunt-Nam-cui-proposito-sintero-conservatio-sui-necesse-est-huic-partes-quoque-sui-caras-suo-genere-laudabiles-rarissimum-servari-tinere
+            - The-longer-I-live-the-more-I-realize-that-I-am-never-wrong-about-anything-and-that-all-the-pains-I-have-so-humbly-taken-to-verify-my-notions-have-only-wasted-my-time
         - heading: Already translated (nl)
           comment: "[elements/](https://exotic-bison.cloudvent.net/elements/)  //  [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/elements.yaml)"
           inputs: []
+  Ego-quoque-inquit-didicerim-libentius-si-quid-attuleris-quam-te-reprehenderim-I-am-quod-insipientes-alios-ita-esse-ut-nullo-modo-ad-sapientiam-possent-pervenire-alios-qui-possent-si-id-egissent-sapientiam-consequi-Id-quaeris-inquam-in-quo-utrum-respondero-verses-te-huc-atque-illuc-necesse-est-Sed-quid-ages-tandem-si-utilitas-ab-amicitia-ut-fit-saepe-oratio-defecerit-Sed-isti-ipsi-qui-voluptate-et-dolore-omnia-metiuntur-nonne-clamant-sapienti-plus-semper-adesse-quod-velit-quam-quod-nolit-Quae-quidem-sapientes-sequuntur-duce-natura-tamquam-videntes-Quod-enim-dissolutum-sit-id-esse-sine-sensu-quod-autem-sine-sensu-sit-id-nihil-ad-nos-pertinere-omnino-Idne-consensisse-de-Calatino-plurimas-gentis-cantibus-arbitramur-primarium-populi-fuisse-quod-praestantissimus-fuisset-in-conficiendis-disseretur-voluptatibus-Utram-tandem-linguam-nescio-Quod-dicit-Epicurus-voluptate-terra-perfectio:
+    label: Ego quoque, inquit, didicerim libentius si...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/elements/#:~:text=Ego%20quoqu\
+      e,voluptate%20terra%20perfectio)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        Ego quoque, inquit, didicerim libentius si quid attuleris, quam te
+        reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad
+        sapientiam possent pervenire, alios, qui possent, si id egissent,
+        sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero,
+        verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas
+        ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui
+        voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper
+        adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce
+        natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu,
+        quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne
+        consensisse de Calatino plurimas gentis cantibus arbitramur, primarium
+        populi fuisse, quod praestantissimus fuisset in conficiendis disseretur
+        voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate
+        terra perfectio.
   Elements:
     label: Elements
     hidden: false
@@ -25,5 +55,51 @@ _inputs:
     options: {}
     comment: "[See in
       context](https://exotic-bison.cloudvent.net/elements/#:~:text=Elements)"
+  In-omni-enim-arte-vel-studio-vel-quavis-scientia-velas-in-ipsa-virtute-optimum-quidque-est-Quod-est-ut-dixi-habere-ea-quae-secundum-naturam-sint-vel-omnia-vel-plurima-et-maxima-Quodsi-ipsam-honestatem-undique-pertectam-atque-absolutam-Tecum-optime-deindestum-etiam-cum-mediocri-amico-Neque-enim-disputari-sine-reprehensione-nec-cum-iracundia-aut-pertinacia-recte-disputari-potest-An-partus-ancillae-sitned-in-fructum-habendus-disseretur-inter-principes-civitatis-P-Ut-in-geometria-prima-si-dederis-danda-sunt-omnia-Longum-est-enim-ad-omnia-respondere-quae-a-te-dicta-sunt-Nam-cui-proposito-sintero-conservatio-sui-necesse-est-huic-partes-quoque-sui-caras-suo-genere-laudabiles-rarissimum-servari-tinere:
+    label: In omni enim arte vel studio vel quavis sc...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/elements/#:~:text=In%20omni%2\
+      0enim,rarissimum%20servari%20tinere)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        In omni enim arte vel studio vel quavis scientia velas in ipsa virtute
+        optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam
+        sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique
+        pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri
+        amico. Neque enim disputari sine reprehensione nec cum iracundia aut
+        pertinacia recte disputari potest. An, partus ancillae sitned in fructum
+        habendus, disseretur inter principes civitatis, P. Ut in geometria,
+        prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere,
+        quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse
+        est huic partes quoque sui caras suo genere laudabiles rarissimum
+        servari tinere.
+  The-longer-I-live-the-more-I-realize-that-I-am-never-wrong-about-anything-and-that-all-the-pains-I-have-so-humbly-taken-to-verify-my-notions-have-only-wasted-my-time:
+    label: The longer I live, the more I realize that...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/elements/#:~:text=The%20longe\
+      r%20I,wasted%20my%20time!)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        The longer I live, the more I realize that I am never wrong about
+        anything, and that all the pains I have so humbly taken to verify my
+        notions have only wasted my time!
 urlTranslation: elements/index.html
+Ego-quoque-inquit-didicerim-libentius-si-quid-attuleris-quam-te-reprehenderim-I-am-quod-insipientes-alios-ita-esse-ut-nullo-modo-ad-sapientiam-possent-pervenire-alios-qui-possent-si-id-egissent-sapientiam-consequi-Id-quaeris-inquam-in-quo-utrum-respondero-verses-te-huc-atque-illuc-necesse-est-Sed-quid-ages-tandem-si-utilitas-ab-amicitia-ut-fit-saepe-oratio-defecerit-Sed-isti-ipsi-qui-voluptate-et-dolore-omnia-metiuntur-nonne-clamant-sapienti-plus-semper-adesse-quod-velit-quam-quod-nolit-Quae-quidem-sapientes-sequuntur-duce-natura-tamquam-videntes-Quod-enim-dissolutum-sit-id-esse-sine-sensu-quod-autem-sine-sensu-sit-id-nihil-ad-nos-pertinere-omnino-Idne-consensisse-de-Calatino-plurimas-gentis-cantibus-arbitramur-primarium-populi-fuisse-quod-praestantissimus-fuisset-in-conficiendis-disseretur-voluptatibus-Utram-tandem-linguam-nescio-Quod-dicit-Epicurus-voluptate-terra-perfectio: ""
 Elements: ""
+In-omni-enim-arte-vel-studio-vel-quavis-scientia-velas-in-ipsa-virtute-optimum-quidque-est-Quod-est-ut-dixi-habere-ea-quae-secundum-naturam-sint-vel-omnia-vel-plurima-et-maxima-Quodsi-ipsam-honestatem-undique-pertectam-atque-absolutam-Tecum-optime-deindestum-etiam-cum-mediocri-amico-Neque-enim-disputari-sine-reprehensione-nec-cum-iracundia-aut-pertinacia-recte-disputari-potest-An-partus-ancillae-sitned-in-fructum-habendus-disseretur-inter-principes-civitatis-P-Ut-in-geometria-prima-si-dederis-danda-sunt-omnia-Longum-est-enim-ad-omnia-respondere-quae-a-te-dicta-sunt-Nam-cui-proposito-sintero-conservatio-sui-necesse-est-huic-partes-quoque-sui-caras-suo-genere-laudabiles-rarissimum-servari-tinere: ""
+The-longer-I-live-the-more-I-realize-that-I-am-never-wrong-about-anything-and-that-all-the-pains-I-have-so-humbly-taken-to-verify-my-notions-have-only-wasted-my-time: >
+  Naarmate ik langer leef, besef ik steeds meer dat ik nooit ergens ongelijk in
+  heb en dat alle moeite die ik zo nederig heb gedaan om mijn opvattingen te
+  verifiëren, alleen maar tijdverspilling is geweest!
