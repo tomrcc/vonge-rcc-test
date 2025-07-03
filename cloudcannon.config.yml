@@ -1,16 +1,15 @@
-source: site
 paths:
-  uploads: uploads
+  uploads: site/images
   static: ''
 collections_config:
   data:
-    path: _data
+    path: site/_data
     disable_url: true
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   posts:
-    path: collections/_posts
+    path: site/collections/_posts
     url: /blog/[full_slug]/
     create:
       path: >-
@@ -22,7 +21,7 @@ collections_config:
       default:
         path: site/schemas/post.md
   pages:
-    path: collections/_pages
+    path: site/collections/_pages
     url: "/[full_slug]/"
     icon: wysiwyg
     disable_add: false
@@ -32,7 +31,7 @@ collections_config:
       default:
         path: site/schemas/page.html
   projects:
-    path: collections/_projects
+    path: site/collections/_projects
     url: "/projects/[full_slug]/"
     description: ''
     disable_add: false
@@ -42,7 +41,7 @@ collections_config:
       default:
         path: site/schemas/project.md
   testimonials:
-    path: collections/_testimonials
+    path: site/collections/_testimonials
     disable_url: true
     description: ''
     icon: format_quote
@@ -64,7 +63,7 @@ collections_config:
       default:
         path: site/schemas/testimonial.md
   drafts:
-    path: collections/_drafts
+    path: site/collections/_drafts
     url: "/blog/[full_slug]/"
     create:
       publish_to: posts
@@ -79,7 +78,7 @@ collections_config:
     disable_add_folder: true
     disable_file_actions: false
     glob:
-      - config.yaml
+      - rcc.yaml
       - 'translations/**'
     _inputs:
       urlTranslation:
