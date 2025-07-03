@@ -206,7 +206,11 @@ function walkChildren(node, filePath) {
         // Found the lowest block level element
         const innerText = extractTextChildren(child.children, filePath);
         // Add a data-rosey tag to it with slugified inner text if no data-rosey tag already there
-        if (innerText && !Object.keys(child.properties).includes("dataRosey")) {
+        if (
+          // Trim it to check innerText isn't just blank space - which would not be false, but will make a rubbish id
+          innerText.trim() &&
+          !Object.keys(child.properties).includes("dataRosey")
+        ) {
           child.properties["data-rosey"] = slugify(innerText, {
             remove: disallowedIdChars,
           });
