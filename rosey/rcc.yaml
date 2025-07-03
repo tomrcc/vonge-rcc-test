@@ -3,7 +3,8 @@
 # Locales can be anything you want, are case-sensitive, 
 # and will be used for the URL prefix for your translated section of the site. 
 # Some common examples would be `fr`, `fr-FR` or `french`.
-locales: []
+locales: 
+  - nl
 
 input_lengths:
     # Define the behaviour for when an input in the editor facing files will concatenate it's label, 
