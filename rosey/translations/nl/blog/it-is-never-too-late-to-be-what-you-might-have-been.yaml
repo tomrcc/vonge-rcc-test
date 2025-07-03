@@ -1,0 +1,29 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/it-is-never-too-late-to-be-what-you-might-have-been](https://ex\
+      otic-bison.cloudvent.net/blog/it-is-never-too-late-to-be-what-you-might-h\
+      ave-been)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/blog/it-is-never-too-late-to-be-what-you-might-have-been\
+      .yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/it-is-never-too-late-to-be-what-you-might-have-been](https://ex\
+            otic-bison.cloudvent.net/blog/it-is-never-too-late-to-be-what-you-m\
+            ight-have-been)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/it-is-never-too-late-to-be-what-you-mig\
+            ht-have-been.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/it-is-never-too-late-to-be-what-you-might-have-been](https://ex\
+            otic-bison.cloudvent.net/blog/it-is-never-too-late-to-be-what-you-m\
+            ight-have-been)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/it-is-never-too-late-to-be-what-you-mig\
+            ht-have-been.yaml)"
+          inputs: []
+urlTranslation: blog/it-is-never-too-late-to-be-what-you-might-have-been.html

@@ -1,0 +1,29 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/everything-has-beauty-but-not-everyone-can-see](https://exotic-\
+      bison.cloudvent.net/blog/everything-has-beauty-but-not-everyone-can-see)  \
+      //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/blog/everything-has-beauty-but-not-everyone-can-see.yaml\
+      )"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/everything-has-beauty-but-not-everyone-can-see](https://exotic-\
+            bison.cloudvent.net/blog/everything-has-beauty-but-not-everyone-can\
+            -see)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/everything-has-beauty-but-not-everyone-\
+            can-see.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/everything-has-beauty-but-not-everyone-can-see](https://exotic-\
+            bison.cloudvent.net/blog/everything-has-beauty-but-not-everyone-can\
+            -see)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/everything-has-beauty-but-not-everyone-\
+            can-see.yaml)"
+          inputs: []
+urlTranslation: blog/everything-has-beauty-but-not-everyone-can-see.html

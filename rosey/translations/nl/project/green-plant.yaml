@@ -1,0 +1,33 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/green-plant](https://exotic-bison.cloudvent.net/project/gree\
+      n-plant)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/green-plant.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/green-plant](https://exotic-bison.cloudvent.net/project/gree\
+            n-plant)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/green-plant.yaml)"
+          inputs:
+            - Green Plant
+        - heading: Already translated (nl)
+          comment: "[project/green-plant](https://exotic-bison.cloudvent.net/project/gree\
+            n-plant)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/green-plant.yaml)"
+          inputs: []
+  Green Plant:
+    label: Green Plant
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/project/green-plant#:~:text=G\
+      reen%20Plant)"
+urlTranslation: project/green-plant.html
+Green Plant: ""

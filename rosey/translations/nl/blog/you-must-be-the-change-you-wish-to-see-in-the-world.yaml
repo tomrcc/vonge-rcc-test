@@ -1,0 +1,29 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/you-must-be-the-change-you-wish-to-see-in-the-world](https://ex\
+      otic-bison.cloudvent.net/blog/you-must-be-the-change-you-wish-to-see-in-t\
+      he-world)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/blog/you-must-be-the-change-you-wish-to-see-in-the-world\
+      .yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/you-must-be-the-change-you-wish-to-see-in-the-world](https://ex\
+            otic-bison.cloudvent.net/blog/you-must-be-the-change-you-wish-to-se\
+            e-in-the-world)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/you-must-be-the-change-you-wish-to-see-\
+            in-the-world.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/you-must-be-the-change-you-wish-to-see-in-the-world](https://ex\
+            otic-bison.cloudvent.net/blog/you-must-be-the-change-you-wish-to-se\
+            e-in-the-world)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/you-must-be-the-change-you-wish-to-see-\
+            in-the-world.yaml)"
+          inputs: []
+urlTranslation: blog/you-must-be-the-change-you-wish-to-see-in-the-world.html

@@ -1,0 +1,29 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/strive-not-to-be-a-success-but-rather-to-be-of-value](https://e\
+      xotic-bison.cloudvent.net/blog/strive-not-to-be-a-success-but-rather-to-b\
+      e-of-value)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/blog/strive-not-to-be-a-success-but-rather-to-be-of-valu\
+      e.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/strive-not-to-be-a-success-but-rather-to-be-of-value](https://e\
+            xotic-bison.cloudvent.net/blog/strive-not-to-be-a-success-but-rathe\
+            r-to-be-of-value)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/strive-not-to-be-a-success-but-rather-t\
+            o-be-of-value.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/strive-not-to-be-a-success-but-rather-to-be-of-value](https://e\
+            xotic-bison.cloudvent.net/blog/strive-not-to-be-a-success-but-rathe\
+            r-to-be-of-value)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/strive-not-to-be-a-success-but-rather-t\
+            o-be-of-value.yaml)"
+          inputs: []
+urlTranslation: blog/strive-not-to-be-a-success-but-rather-to-be-of-value.html

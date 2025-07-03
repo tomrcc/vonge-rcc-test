@@ -1,0 +1,28 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/that-which-does-not-kill-us-makes-us-stronger](https://exotic-b\
+      ison.cloudvent.net/blog/that-which-does-not-kill-us-makes-us-stronger)  /\
+      /  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/blog/that-which-does-not-kill-us-makes-us-stronger.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/that-which-does-not-kill-us-makes-us-stronger](https://exotic-b\
+            ison.cloudvent.net/blog/that-which-does-not-kill-us-makes-us-strong\
+            er)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/that-which-does-not-kill-us-makes-us-st\
+            ronger.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/that-which-does-not-kill-us-makes-us-stronger](https://exotic-b\
+            ison.cloudvent.net/blog/that-which-does-not-kill-us-makes-us-strong\
+            er)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/that-which-does-not-kill-us-makes-us-st\
+            ronger.yaml)"
+          inputs: []
+urlTranslation: blog/that-which-does-not-kill-us-makes-us-stronger.html

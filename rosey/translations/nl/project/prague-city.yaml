@@ -1,0 +1,33 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/prague-city](https://exotic-bison.cloudvent.net/project/prag\
+      ue-city)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/prague-city.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/prague-city](https://exotic-bison.cloudvent.net/project/prag\
+            ue-city)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/prague-city.yaml)"
+          inputs:
+            - Prague city
+        - heading: Already translated (nl)
+          comment: "[project/prague-city](https://exotic-bison.cloudvent.net/project/prag\
+            ue-city)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/prague-city.yaml)"
+          inputs: []
+  Prague city:
+    label: Prague city
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/project/prague-city#:~:text=P\
+      rague%20city)"
+urlTranslation: project/prague-city.html
+Prague city: ""

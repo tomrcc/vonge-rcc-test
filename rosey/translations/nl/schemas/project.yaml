@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[schemas/project](https://exotic-bison.cloudvent.net/schemas/project)  \
+      //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/schemas/project.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[schemas/project](https://exotic-bison.cloudvent.net/schemas/project)  \
+            //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/schemas/project.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[schemas/project](https://exotic-bison.cloudvent.net/schemas/project)  \
+            //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/schemas/project.yaml)"
+          inputs: []
+urlTranslation: schemas/project.html

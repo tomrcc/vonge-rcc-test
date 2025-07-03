@@ -1,0 +1,33 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/mountains](https://exotic-bison.cloudvent.net/project/mounta\
+      ins)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/mountains.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/mountains](https://exotic-bison.cloudvent.net/project/mounta\
+            ins)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/mountains.yaml)"
+          inputs:
+            - Mountains
+        - heading: Already translated (nl)
+          comment: "[project/mountains](https://exotic-bison.cloudvent.net/project/mounta\
+            ins)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/mountains.yaml)"
+          inputs: []
+  Mountains:
+    label: Mountains
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/project/mountains#:~:text=Mou\
+      ntains)"
+urlTranslation: project/mountains.html
+Mountains: ""

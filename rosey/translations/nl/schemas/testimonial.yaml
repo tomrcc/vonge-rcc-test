@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[schemas/testimonial](https://exotic-bison.cloudvent.net/schemas/test\
+      imonial)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/schemas/testimonial.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[schemas/testimonial](https://exotic-bison.cloudvent.net/schemas/test\
+            imonial)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/schemas/testimonial.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[schemas/testimonial](https://exotic-bison.cloudvent.net/schemas/test\
+            imonial)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/schemas/testimonial.yaml)"
+          inputs: []
+urlTranslation: schemas/testimonial.html

@@ -1,0 +1,33 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/desk-setup](https://exotic-bison.cloudvent.net/project/desk-\
+      setup)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/desk-setup.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/desk-setup](https://exotic-bison.cloudvent.net/project/desk-\
+            setup)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/desk-setup.yaml)"
+          inputs:
+            - Desk setup
+        - heading: Already translated (nl)
+          comment: "[project/desk-setup](https://exotic-bison.cloudvent.net/project/desk-\
+            setup)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/desk-setup.yaml)"
+          inputs: []
+  Desk setup:
+    label: Desk setup
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/project/desk-setup#:~:text=De\
+      sk%20setup)"
+urlTranslation: project/desk-setup.html
+Desk setup: ""

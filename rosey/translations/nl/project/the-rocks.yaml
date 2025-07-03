@@ -1,0 +1,33 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/the-rocks](https://exotic-bison.cloudvent.net/project/the-ro\
+      cks)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/the-rocks.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/the-rocks](https://exotic-bison.cloudvent.net/project/the-ro\
+            cks)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/the-rocks.yaml)"
+          inputs:
+            - The rocks
+        - heading: Already translated (nl)
+          comment: "[project/the-rocks](https://exotic-bison.cloudvent.net/project/the-ro\
+            cks)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/the-rocks.yaml)"
+          inputs: []
+  The rocks:
+    label: The rocks
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/project/the-rocks#:~:text=The\
+      %20rocks)"
+urlTranslation: project/the-rocks.html
+The rocks: ""

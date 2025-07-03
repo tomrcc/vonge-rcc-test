@@ -1,0 +1,33 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/big-airplane](https://exotic-bison.cloudvent.net/project/big\
+      -airplane)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/big-airplane.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/big-airplane](https://exotic-bison.cloudvent.net/project/big\
+            -airplane)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/big-airplane.yaml)"
+          inputs:
+            - Big airplane
+        - heading: Already translated (nl)
+          comment: "[project/big-airplane](https://exotic-bison.cloudvent.net/project/big\
+            -airplane)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/big-airplane.yaml)"
+          inputs: []
+  Big airplane:
+    label: Big airplane
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/project/big-airplane#:~:text=\
+      Big%20airplane)"
+urlTranslation: project/big-airplane.html
+Big airplane: ""

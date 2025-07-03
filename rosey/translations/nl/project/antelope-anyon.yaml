@@ -1,0 +1,33 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/antelope-anyon](https://exotic-bison.cloudvent.net/project/a\
+      ntelope-anyon)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/antelope-anyon.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/antelope-anyon](https://exotic-bison.cloudvent.net/project/a\
+            ntelope-anyon)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/antelope-anyon.yaml)"
+          inputs:
+            - Antelope Canyon
+        - heading: Already translated (nl)
+          comment: "[project/antelope-anyon](https://exotic-bison.cloudvent.net/project/a\
+            ntelope-anyon)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/antelope-anyon.yaml)"
+          inputs: []
+  Antelope Canyon:
+    label: Antelope Canyon
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/project/antelope-anyon#:~:tex\
+      t=Antelope%20Canyon)"
+urlTranslation: project/antelope-anyon.html
+Antelope Canyon: ""

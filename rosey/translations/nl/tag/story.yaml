@@ -1,0 +1,29 @@
+_inputs:
+  $:
+    type: object
+    comment: "[tag/story](https://exotic-bison.cloudvent.net/tag/story)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/tag/story.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[tag/story](https://exotic-bison.cloudvent.net/tag/story)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/story.yaml)"
+          inputs:
+            - Story
+        - heading: Already translated (nl)
+          comment: "[tag/story](https://exotic-bison.cloudvent.net/tag/story)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/story.yaml)"
+          inputs: []
+  Story:
+    label: Story
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/story#:~:text=Story)"
+urlTranslation: tag/story.html
+Story: ""
