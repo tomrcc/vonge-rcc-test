@@ -13,11 +13,21 @@ _inputs:
             een-plant)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/green-plant.yaml)"
-          inputs: []
+          inputs:
+            - Green Plant
         - heading: Already translated (nl)
           comment: "[project/green-plant](https://adjective-noun.cloudvent.net/project/gr\
             een-plant)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/green-plant.yaml)"
           inputs: []
+  Green Plant:
+    label: Green Plant
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/green-plant#:~:text\
+      =Green%20Plant)"
 urlTranslation: project/green-plant.html
+Green Plant: ""

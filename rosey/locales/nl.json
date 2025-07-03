@@ -1,6 +1,82 @@
 {
+	"About": {
+		"original": "About",
+		"value": "About"
+	},
+	"Antelope Canyon": {
+		"original": "Antelope Canyon",
+		"value": "Antelope Canyon"
+	},
+	"Big airplane": {
+		"original": "Big airplane",
+		"value": "Big airplane"
+	},
+	"Blog": {
+		"original": "Blog",
+		"value": "Blog"
+	},
+	"Desk setup": {
+		"original": "Desk setup",
+		"value": "Desk setup"
+	},
+	"Elements": {
+		"original": "Elements",
+		"value": "Elements"
+	},
+	"Green Plant": {
+		"original": "Green Plant",
+		"value": "Green Plant"
+	},
 	"Hi there, I am Vanessa Marley": {
 		"original": "Hi there, I am Vanessa Marley",
 		"value": "Hi there, I am Vanessa Marley"
+	},
+	"Life": {
+		"original": "Life",
+		"value": "Life"
+	},
+	"Lifestyle": {
+		"original": "Lifestyle",
+		"value": "Lifestyle"
+	},
+	"Mountains": {
+		"original": "Mountains",
+		"value": "Mountains"
+	},
+	"My works": {
+		"original": "My works",
+		"value": "My works"
+	},
+	"Notes": {
+		"original": "Notes",
+		"value": "Notes"
+	},
+	"Prague city": {
+		"original": "Prague city",
+		"value": "Prague city"
+	},
+	"Quiet Lake": {
+		"original": "Quiet Lake",
+		"value": "Quiet Lake"
+	},
+	"Rest": {
+		"original": "Rest",
+		"value": "Rest"
+	},
+	"Sea and rest": {
+		"original": "Sea and rest",
+		"value": "Sea and rest"
+	},
+	"Story": {
+		"original": "Story",
+		"value": "Story"
+	},
+	"The rocks": {
+		"original": "The rocks",
+		"value": "The rocks"
+	},
+	"Travel": {
+		"original": "Travel",
+		"value": "Travel"
 	}
 }

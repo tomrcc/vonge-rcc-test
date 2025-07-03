@@ -11,10 +11,19 @@ _inputs:
           comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/story.yaml)"
-          inputs: []
+          inputs:
+            - Story
         - heading: Already translated (nl)
           comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/story.yaml)"
           inputs: []
+  Story:
+    label: Story
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/tag/story#:~:text=Story)"
 urlTranslation: tag/story.html
+Story: ""

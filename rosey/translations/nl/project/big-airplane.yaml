@@ -13,11 +13,21 @@ _inputs:
             ig-airplane)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/big-airplane.yaml)"
-          inputs: []
+          inputs:
+            - Big airplane
         - heading: Already translated (nl)
           comment: "[project/big-airplane](https://adjective-noun.cloudvent.net/project/b\
             ig-airplane)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/big-airplane.yaml)"
           inputs: []
+  Big airplane:
+    label: Big airplane
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/big-airplane#:~:tex\
+      t=Big%20airplane)"
 urlTranslation: project/big-airplane.html
+Big airplane: ""

@@ -13,11 +13,21 @@ _inputs:
             tains)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/mountains.yaml)"
-          inputs: []
+          inputs:
+            - Mountains
         - heading: Already translated (nl)
           comment: "[project/mountains](https://adjective-noun.cloudvent.net/project/moun\
             tains)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/mountains.yaml)"
           inputs: []
+  Mountains:
+    label: Mountains
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/mountains#:~:text=M\
+      ountains)"
 urlTranslation: project/mountains.html
+Mountains: ""

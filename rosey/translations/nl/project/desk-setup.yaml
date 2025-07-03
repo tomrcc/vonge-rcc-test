@@ -13,11 +13,21 @@ _inputs:
             k-setup)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/desk-setup.yaml)"
-          inputs: []
+          inputs:
+            - Desk setup
         - heading: Already translated (nl)
           comment: "[project/desk-setup](https://adjective-noun.cloudvent.net/project/des\
             k-setup)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/desk-setup.yaml)"
           inputs: []
+  Desk setup:
+    label: Desk setup
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/desk-setup#:~:text=\
+      Desk%20setup)"
 urlTranslation: project/desk-setup.html
+Desk setup: ""

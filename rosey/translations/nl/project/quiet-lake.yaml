@@ -13,11 +13,21 @@ _inputs:
             et-lake)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/quiet-lake.yaml)"
-          inputs: []
+          inputs:
+            - Quiet Lake
         - heading: Already translated (nl)
           comment: "[project/quiet-lake](https://adjective-noun.cloudvent.net/project/qui\
             et-lake)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/quiet-lake.yaml)"
           inputs: []
+  Quiet Lake:
+    label: Quiet Lake
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/quiet-lake#:~:text=\
+      Quiet%20Lake)"
 urlTranslation: project/quiet-lake.html
+Quiet Lake: ""

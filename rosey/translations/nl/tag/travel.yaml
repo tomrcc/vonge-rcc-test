@@ -13,11 +13,20 @@ _inputs:
             it
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/travel.yaml)"
-          inputs: []
+          inputs:
+            - Travel
         - heading: Already translated (nl)
           comment: "[tag/travel](https://adjective-noun.cloudvent.net/tag/travel)  //  [G\
             it
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/travel.yaml)"
           inputs: []
+  Travel:
+    label: Travel
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/tag/travel#:~:text=Travel)"
 urlTranslation: tag/travel.html
+Travel: ""

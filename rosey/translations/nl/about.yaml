@@ -11,10 +11,19 @@ _inputs:
           comment: "[about/](https://adjective-noun.cloudvent.net/about/)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/about.yaml)"
-          inputs: []
+          inputs:
+            - About
         - heading: Already translated (nl)
           comment: "[about/](https://adjective-noun.cloudvent.net/about/)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/about.yaml)"
           inputs: []
+  About:
+    label: About
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/about/#:~:text=About)"
 urlTranslation: about/index.html
+About: ""

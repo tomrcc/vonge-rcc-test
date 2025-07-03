@@ -13,11 +13,21 @@ _inputs:
             ague-city)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/prague-city.yaml)"
-          inputs: []
+          inputs:
+            - Prague city
         - heading: Already translated (nl)
           comment: "[project/prague-city](https://adjective-noun.cloudvent.net/project/pr\
             ague-city)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/prague-city.yaml)"
           inputs: []
+  Prague city:
+    label: Prague city
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/prague-city#:~:text\
+      =Prague%20city)"
 urlTranslation: project/prague-city.html
+Prague city: ""

@@ -13,11 +13,21 @@ _inputs:
             ea-and-rest)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/sea-and-rest.yaml)"
-          inputs: []
+          inputs:
+            - Sea and rest
         - heading: Already translated (nl)
           comment: "[project/sea-and-rest](https://adjective-noun.cloudvent.net/project/s\
             ea-and-rest)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/sea-and-rest.yaml)"
           inputs: []
+  Sea and rest:
+    label: Sea and rest
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/sea-and-rest#:~:tex\
+      t=Sea%20and%20rest)"
 urlTranslation: project/sea-and-rest.html
+Sea and rest: ""

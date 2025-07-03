@@ -13,11 +13,21 @@ _inputs:
             rocks)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/the-rocks.yaml)"
-          inputs: []
+          inputs:
+            - The rocks
         - heading: Already translated (nl)
           comment: "[project/the-rocks](https://adjective-noun.cloudvent.net/project/the-\
             rocks)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/project/the-rocks.yaml)"
           inputs: []
+  The rocks:
+    label: The rocks
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/project/the-rocks#:~:text=T\
+      he%20rocks)"
 urlTranslation: project/the-rocks.html
+The rocks: ""

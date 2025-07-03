@@ -11,10 +11,19 @@ _inputs:
           comment: "[elements/](https://adjective-noun.cloudvent.net/elements/)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/elements.yaml)"
-          inputs: []
+          inputs:
+            - Elements
         - heading: Already translated (nl)
           comment: "[elements/](https://adjective-noun.cloudvent.net/elements/)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/elements.yaml)"
           inputs: []
+  Elements:
+    label: Elements
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/elements/#:~:text=Elements)"
 urlTranslation: elements/index.html
+Elements: ""

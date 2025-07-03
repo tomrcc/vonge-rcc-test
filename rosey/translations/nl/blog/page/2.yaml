@@ -13,11 +13,20 @@ _inputs:
             [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/blog/page/2.yaml)"
-          inputs: []
+          inputs:
+            - Blog
         - heading: Already translated (nl)
           comment: "[blog/page/2/](https://adjective-noun.cloudvent.net/blog/page/2/)  //  \
             [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/blog/page/2.yaml)"
           inputs: []
+  Blog:
+    label: Blog
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/blog/page/2/#:~:text=Blog)"
 urlTranslation: blog/page/2/index.html
+Blog: ""

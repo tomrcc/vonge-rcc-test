@@ -11,10 +11,20 @@ _inputs:
           comment: "[projects/](https://adjective-noun.cloudvent.net/projects/)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/projects.yaml)"
-          inputs: []
+          inputs:
+            - My works
         - heading: Already translated (nl)
           comment: "[projects/](https://adjective-noun.cloudvent.net/projects/)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/projects.yaml)"
           inputs: []
+  My works:
+    label: My works
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/projects/#:~:text=My%20work\
+      s)"
 urlTranslation: projects/index.html
+My works: ""

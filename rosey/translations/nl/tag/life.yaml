@@ -11,10 +11,19 @@ _inputs:
           comment: "[tag/life](https://adjective-noun.cloudvent.net/tag/life)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/life.yaml)"
-          inputs: []
+          inputs:
+            - Life
         - heading: Already translated (nl)
           comment: "[tag/life](https://adjective-noun.cloudvent.net/tag/life)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/life.yaml)"
           inputs: []
+  Life:
+    label: Life
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/tag/life#:~:text=Life)"
 urlTranslation: tag/life.html
+Life: ""

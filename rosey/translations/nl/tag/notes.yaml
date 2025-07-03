@@ -11,10 +11,19 @@ _inputs:
           comment: "[tag/notes](https://adjective-noun.cloudvent.net/tag/notes)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/notes.yaml)"
-          inputs: []
+          inputs:
+            - Notes
         - heading: Already translated (nl)
           comment: "[tag/notes](https://adjective-noun.cloudvent.net/tag/notes)  //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/notes.yaml)"
           inputs: []
+  Notes:
+    label: Notes
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/tag/notes#:~:text=Notes)"
 urlTranslation: tag/notes.html
+Notes: ""

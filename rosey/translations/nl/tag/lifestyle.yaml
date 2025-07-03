@@ -13,11 +13,21 @@ _inputs:
             //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/lifestyle.yaml)"
-          inputs: []
+          inputs:
+            - Lifestyle
         - heading: Already translated (nl)
           comment: "[tag/lifestyle](https://adjective-noun.cloudvent.net/tag/lifestyle)  \
             //  [Git
             history](https://github.com/org/repo/commits/staging/./rosey/transl\
             ations/nl/tag/lifestyle.yaml)"
           inputs: []
+  Lifestyle:
+    label: Lifestyle
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://adjective-noun.cloudvent.net/tag/lifestyle#:~:text=Lifes\
+      tyle)"
 urlTranslation: tag/lifestyle.html
+Lifestyle: ""
