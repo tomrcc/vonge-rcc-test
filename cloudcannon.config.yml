@@ -1,25 +1,17 @@
 source: site
 paths:
   uploads: uploads
-  dam_uploads: ''
   static: ''
-  dam_static: ''
-  collections: collections
-  data: _data
-  layouts: _layouts
-  includes: _includes
 collections_config:
   data:
     path: _data
-    output: false
-    icon:
+    disable_url: true
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   posts:
     path: collections/_posts
-    output: true
-    icon:
+    url: /blog/[full_slug]/
     create:
       path: >-
         [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
@@ -31,7 +23,7 @@ collections_config:
         path: site/schemas/post.md
   pages:
     path: collections/_pages
-    output: true
+    url: "/[full_slug]/"
     icon: wysiwyg
     disable_add: false
     disable_add_folder: false
@@ -41,22 +33,8 @@ collections_config:
         path: site/schemas/page.html
   projects:
     path: collections/_projects
-    output: true
+    url: "/projects/[full_slug]/"
     description: ''
-    icon: work_outline
-    preview:
-      text:
-      subtext:
-        - key: subtitle
-      icon:
-      icon_color:
-      image:
-      metadata:
-      gallery:
-    _editables:
-    _inputs:
-    _select_data:
-    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -65,7 +43,7 @@ collections_config:
         path: site/schemas/project.md
   testimonials:
     path: collections/_testimonials
-    output: false
+    disable_url: true
     description: ''
     icon: format_quote
     sort:
@@ -77,21 +55,8 @@ collections_config:
       - key: position
       - key: position
         order: desc
-    preview:
-      text:
-      subtext:
-        - key: position
-      icon:
-      icon_color:
-      image:
-      metadata:
-      gallery:
-    _editables:
     _enabled_editors:
       - data
-    _inputs:
-    _select_data:
-    _structures:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -100,8 +65,7 @@ collections_config:
         path: site/schemas/testimonial.md
   drafts:
     path: collections/_drafts
-    output: true
-    icon:
+    url: "/blog/[full_slug]/"
     create:
       publish_to: posts
     disable_add: false
