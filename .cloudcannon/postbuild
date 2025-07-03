@@ -12,6 +12,7 @@ fi
 
 if [[ $ROSEYPROD == "true" ]];
 then
+  node rosey-tagger/main.mjs --source _site
   echo "Translating site with Rosey"
   mv ./_site ./untranslated_site
   npx rosey build --source untranslated_site --dest _site
