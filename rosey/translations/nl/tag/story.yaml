@@ -1,22 +1,22 @@
 _inputs:
   $:
     type: object
-    comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/tag/story.yaml)"
+    comment: "[tag/story](https://exotic-bison.cloudvent.net/tag/story)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/tag/story.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/tag/story.yaml)"
+          comment: "[tag/story](https://exotic-bison.cloudvent.net/tag/story)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/story.yaml)"
           inputs:
             - Story
         - heading: Already translated (nl)
-          comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/tag/story.yaml)"
+          comment: "[tag/story](https://exotic-bison.cloudvent.net/tag/story)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/story.yaml)"
           inputs: []
   Story:
     label: Story
@@ -24,6 +24,6 @@ _inputs:
     type: text
     options: {}
     comment: "[See in
-      context](https://adjective-noun.cloudvent.net/tag/story#:~:text=Story)"
+      context](https://exotic-bison.cloudvent.net/tag/story#:~:text=Story)"
 urlTranslation: tag/story.html
 Story: ""

@@ -1,25 +1,25 @@
 _inputs:
   $:
     type: object
-    comment: "[project/antelope-anyon](https://adjective-noun.cloudvent.net/project\
-      /antelope-anyon)  //  [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/project/antelope-anyon.yaml)"
+    comment: "[project/antelope-anyon](https://exotic-bison.cloudvent.net/project/a\
+      ntelope-anyon)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/antelope-anyon.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[project/antelope-anyon](https://adjective-noun.cloudvent.net/project\
-            /antelope-anyon)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/project/antelope-anyon.yaml)"
+          comment: "[project/antelope-anyon](https://exotic-bison.cloudvent.net/project/a\
+            ntelope-anyon)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/antelope-anyon.yaml)"
           inputs:
             - Antelope Canyon
         - heading: Already translated (nl)
-          comment: "[project/antelope-anyon](https://adjective-noun.cloudvent.net/project\
-            /antelope-anyon)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/project/antelope-anyon.yaml)"
+          comment: "[project/antelope-anyon](https://exotic-bison.cloudvent.net/project/a\
+            ntelope-anyon)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/antelope-anyon.yaml)"
           inputs: []
   Antelope Canyon:
     label: Antelope Canyon
@@ -27,7 +27,7 @@ _inputs:
     type: text
     options: {}
     comment: "[See in
-      context](https://adjective-noun.cloudvent.net/project/antelope-anyon#:~:t\
-      ext=Antelope%20Canyon)"
+      context](https://exotic-bison.cloudvent.net/project/antelope-anyon#:~:tex\
+      t=Antelope%20Canyon)"
 urlTranslation: project/antelope-anyon.html
 Antelope Canyon: ""

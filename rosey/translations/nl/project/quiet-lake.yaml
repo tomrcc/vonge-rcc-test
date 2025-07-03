@@ -1,25 +1,25 @@
 _inputs:
   $:
     type: object
-    comment: "[project/quiet-lake](https://adjective-noun.cloudvent.net/project/qui\
-      et-lake)  //  [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/project/quiet-lake.yaml)"
+    comment: "[project/quiet-lake](https://exotic-bison.cloudvent.net/project/quiet\
+      -lake)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/quiet-lake.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[project/quiet-lake](https://adjective-noun.cloudvent.net/project/qui\
-            et-lake)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/project/quiet-lake.yaml)"
+          comment: "[project/quiet-lake](https://exotic-bison.cloudvent.net/project/quiet\
+            -lake)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/quiet-lake.yaml)"
           inputs:
             - Quiet Lake
         - heading: Already translated (nl)
-          comment: "[project/quiet-lake](https://adjective-noun.cloudvent.net/project/qui\
-            et-lake)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/project/quiet-lake.yaml)"
+          comment: "[project/quiet-lake](https://exotic-bison.cloudvent.net/project/quiet\
+            -lake)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/quiet-lake.yaml)"
           inputs: []
   Quiet Lake:
     label: Quiet Lake
@@ -27,7 +27,7 @@ _inputs:
     type: text
     options: {}
     comment: "[See in
-      context](https://adjective-noun.cloudvent.net/project/quiet-lake#:~:text=\
-      Quiet%20Lake)"
+      context](https://exotic-bison.cloudvent.net/project/quiet-lake#:~:text=Qu\
+      iet%20Lake)"
 urlTranslation: project/quiet-lake.html
 Quiet Lake: ""

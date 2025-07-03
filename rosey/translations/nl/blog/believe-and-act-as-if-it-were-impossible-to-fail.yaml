@@ -1,28 +1,29 @@
 _inputs:
   $:
     type: object
-    comment: "[blog/believe-and-act-as-if-it-were-impossible-to-fail](https://adjec\
-      tive-noun.cloudvent.net/blog/believe-and-act-as-if-it-were-impossible-to-\
-      fail)  //  [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/blog/believe-and-act-as-if-it-were-impossible-to-fail.yaml)"
+    comment: "[blog/believe-and-act-as-if-it-were-impossible-to-fail](https://exoti\
+      c-bison.cloudvent.net/blog/believe-and-act-as-if-it-were-impossible-to-fa\
+      il)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/blog/believe-and-act-as-if-it-were-impossible-to-fail.ya\
+      ml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[blog/believe-and-act-as-if-it-were-impossible-to-fail](https://adjec\
-            tive-noun.cloudvent.net/blog/believe-and-act-as-if-it-were-impossib\
-            le-to-fail)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/blog/believe-and-act-as-if-it-were-impossible-to-fail.yam\
-            l)"
+          comment: "[blog/believe-and-act-as-if-it-were-impossible-to-fail](https://exoti\
+            c-bison.cloudvent.net/blog/believe-and-act-as-if-it-were-impossible\
+            -to-fail)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/believe-and-act-as-if-it-were-impossibl\
+            e-to-fail.yaml)"
           inputs: []
         - heading: Already translated (nl)
-          comment: "[blog/believe-and-act-as-if-it-were-impossible-to-fail](https://adjec\
-            tive-noun.cloudvent.net/blog/believe-and-act-as-if-it-were-impossib\
-            le-to-fail)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/blog/believe-and-act-as-if-it-were-impossible-to-fail.yam\
-            l)"
+          comment: "[blog/believe-and-act-as-if-it-were-impossible-to-fail](https://exoti\
+            c-bison.cloudvent.net/blog/believe-and-act-as-if-it-were-impossible\
+            -to-fail)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/blog/believe-and-act-as-if-it-were-impossibl\
+            e-to-fail.yaml)"
           inputs: []
 urlTranslation: blog/believe-and-act-as-if-it-were-impossible-to-fail.html

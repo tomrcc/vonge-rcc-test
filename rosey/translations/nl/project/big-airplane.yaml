@@ -1,25 +1,25 @@
 _inputs:
   $:
     type: object
-    comment: "[project/big-airplane](https://adjective-noun.cloudvent.net/project/b\
-      ig-airplane)  //  [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/project/big-airplane.yaml)"
+    comment: "[project/big-airplane](https://exotic-bison.cloudvent.net/project/big\
+      -airplane)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/project/big-airplane.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[project/big-airplane](https://adjective-noun.cloudvent.net/project/b\
-            ig-airplane)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/project/big-airplane.yaml)"
+          comment: "[project/big-airplane](https://exotic-bison.cloudvent.net/project/big\
+            -airplane)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/big-airplane.yaml)"
           inputs:
             - Big airplane
         - heading: Already translated (nl)
-          comment: "[project/big-airplane](https://adjective-noun.cloudvent.net/project/b\
-            ig-airplane)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/project/big-airplane.yaml)"
+          comment: "[project/big-airplane](https://exotic-bison.cloudvent.net/project/big\
+            -airplane)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/project/big-airplane.yaml)"
           inputs: []
   Big airplane:
     label: Big airplane
@@ -27,7 +27,7 @@ _inputs:
     type: text
     options: {}
     comment: "[See in
-      context](https://adjective-noun.cloudvent.net/project/big-airplane#:~:tex\
-      t=Big%20airplane)"
+      context](https://exotic-bison.cloudvent.net/project/big-airplane#:~:text=\
+      Big%20airplane)"
 urlTranslation: project/big-airplane.html
 Big airplane: ""

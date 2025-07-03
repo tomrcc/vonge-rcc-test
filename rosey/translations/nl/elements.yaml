@@ -1,22 +1,22 @@
 _inputs:
   $:
     type: object
-    comment: "[elements/](https://adjective-noun.cloudvent.net/elements/)  //  [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/elements.yaml)"
+    comment: "[elements/](https://exotic-bison.cloudvent.net/elements/)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/elements.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[elements/](https://adjective-noun.cloudvent.net/elements/)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/elements.yaml)"
+          comment: "[elements/](https://exotic-bison.cloudvent.net/elements/)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/elements.yaml)"
           inputs:
             - Elements
         - heading: Already translated (nl)
-          comment: "[elements/](https://adjective-noun.cloudvent.net/elements/)  //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/elements.yaml)"
+          comment: "[elements/](https://exotic-bison.cloudvent.net/elements/)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/elements.yaml)"
           inputs: []
   Elements:
     label: Elements
@@ -24,6 +24,6 @@ _inputs:
     type: text
     options: {}
     comment: "[See in
-      context](https://adjective-noun.cloudvent.net/elements/#:~:text=Elements)"
+      context](https://exotic-bison.cloudvent.net/elements/#:~:text=Elements)"
 urlTranslation: elements/index.html
 Elements: ""

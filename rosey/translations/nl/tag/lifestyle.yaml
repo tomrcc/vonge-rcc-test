@@ -1,25 +1,25 @@
 _inputs:
   $:
     type: object
-    comment: "[tag/lifestyle](https://adjective-noun.cloudvent.net/tag/lifestyle)  \
-      //  [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/tag/lifestyle.yaml)"
+    comment: "[tag/lifestyle](https://exotic-bison.cloudvent.net/tag/lifestyle)  //  \
+      [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/tag/lifestyle.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[tag/lifestyle](https://adjective-noun.cloudvent.net/tag/lifestyle)  \
-            //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/tag/lifestyle.yaml)"
+          comment: "[tag/lifestyle](https://exotic-bison.cloudvent.net/tag/lifestyle)  //  \
+            [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/lifestyle.yaml)"
           inputs:
             - Lifestyle
         - heading: Already translated (nl)
-          comment: "[tag/lifestyle](https://adjective-noun.cloudvent.net/tag/lifestyle)  \
-            //  [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/tag/lifestyle.yaml)"
+          comment: "[tag/lifestyle](https://exotic-bison.cloudvent.net/tag/lifestyle)  //  \
+            [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/lifestyle.yaml)"
           inputs: []
   Lifestyle:
     label: Lifestyle
@@ -27,7 +27,7 @@ _inputs:
     type: text
     options: {}
     comment: "[See in
-      context](https://adjective-noun.cloudvent.net/tag/lifestyle#:~:text=Lifes\
-      tyle)"
+      context](https://exotic-bison.cloudvent.net/tag/lifestyle#:~:text=Lifesty\
+      le)"
 urlTranslation: tag/lifestyle.html
 Lifestyle: ""

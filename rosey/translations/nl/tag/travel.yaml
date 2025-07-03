@@ -1,25 +1,22 @@
 _inputs:
   $:
     type: object
-    comment: "[tag/travel](https://adjective-noun.cloudvent.net/tag/travel)  //  [G\
-      it
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/tag/travel.yaml)"
+    comment: "[tag/travel](https://exotic-bison.cloudvent.net/tag/travel)  //  [Git
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/tag/travel.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[tag/travel](https://adjective-noun.cloudvent.net/tag/travel)  //  [G\
-            it
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/tag/travel.yaml)"
+          comment: "[tag/travel](https://exotic-bison.cloudvent.net/tag/travel)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/travel.yaml)"
           inputs:
             - Travel
         - heading: Already translated (nl)
-          comment: "[tag/travel](https://adjective-noun.cloudvent.net/tag/travel)  //  [G\
-            it
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/tag/travel.yaml)"
+          comment: "[tag/travel](https://exotic-bison.cloudvent.net/tag/travel)  //  [Git
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/tag/travel.yaml)"
           inputs: []
   Travel:
     label: Travel
@@ -27,6 +24,6 @@ _inputs:
     type: text
     options: {}
     comment: "[See in
-      context](https://adjective-noun.cloudvent.net/tag/travel#:~:text=Travel)"
+      context](https://exotic-bison.cloudvent.net/tag/travel#:~:text=Travel)"
 urlTranslation: tag/travel.html
 Travel: ""

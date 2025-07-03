@@ -1,23 +1,23 @@
 _inputs:
   $:
     type: object
-    comment: "[schemas/post](https://adjective-noun.cloudvent.net/schemas/post)  //  \
+    comment: "[schemas/post](https://exotic-bison.cloudvent.net/schemas/post)  //  \
       [Git
-      history](https://github.com/org/repo/commits/staging/./rosey/translations\
-      /nl/schemas/post.yaml)"
+      history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/./rosey\
+      /translations/nl/schemas/post.yaml)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (nl)
-          comment: "[schemas/post](https://adjective-noun.cloudvent.net/schemas/post)  //  \
+          comment: "[schemas/post](https://exotic-bison.cloudvent.net/schemas/post)  //  \
             [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/schemas/post.yaml)"
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/schemas/post.yaml)"
           inputs: []
         - heading: Already translated (nl)
-          comment: "[schemas/post](https://adjective-noun.cloudvent.net/schemas/post)  //  \
+          comment: "[schemas/post](https://exotic-bison.cloudvent.net/schemas/post)  //  \
             [Git
-            history](https://github.com/org/repo/commits/staging/./rosey/transl\
-            ations/nl/schemas/post.yaml)"
+            history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
+            /rosey/translations/nl/schemas/post.yaml)"
           inputs: []
 urlTranslation: schemas/post.html
