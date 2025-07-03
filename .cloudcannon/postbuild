@@ -2,4 +2,20 @@
 npx -y @pagebreak/cli --source _site --output _site
 npm i
 npx @bookshop/generate
-echo "📚 ✅ : Postbuild script finished"
+
+if [[ $ROSEYPROD != "true" ]];
+then
+  node rosey-tagger/main.mjs
+  npx rosey generate --source _site
+  node rosey-connector/main.mjs
+fi
+
+if [[ $ROSEYPROD == "true" ]];
+then
+  echo "Translating site with Rosey"
+  mv ./_site ./untranslated_site
+  npx rosey build --source untranslated_site --dest _site
+fi
+
+
+
