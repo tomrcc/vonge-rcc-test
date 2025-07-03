@@ -14,14 +14,31 @@ _inputs:
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/lifestyle.yaml)"
           inputs:
-            - Lifestyle
+            - believe-and-act-as-if-it-were-impossible-to-fail
+            - lifestyle
+            - that-which-does-not-kill-us-makes-us-stronger
+            - you-must-be-the-change-you-wish-to-see-in-the-world
         - heading: Already translated (nl)
           comment: "[tag/lifestyle](https://exotic-bison.cloudvent.net/tag/lifestyle)  //  \
             [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/lifestyle.yaml)"
           inputs: []
-  Lifestyle:
+  believe-and-act-as-if-it-were-impossible-to-fail:
+    label: Believe and act as if it were impossible t...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/lifestyle#:~:text=Believe\
+      %20and%20act,impossible%20to%20fail)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Believe and act as if it were impossible to fail
+  lifestyle:
     label: Lifestyle
     hidden: false
     type: text
@@ -29,5 +46,36 @@ _inputs:
     comment: "[See in
       context](https://exotic-bison.cloudvent.net/tag/lifestyle#:~:text=Lifesty\
       le)"
+  that-which-does-not-kill-us-makes-us-stronger:
+    label: That which does not kill us makes us stron...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/lifestyle#:~:text=That%20\
+      which%20does,makes%20us%20stronger)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        That which does not kill us makes us stronger
+  you-must-be-the-change-you-wish-to-see-in-the-world:
+    label: You must be the change you wish to see in ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/lifestyle#:~:text=You%20m\
+      ust%20be,in%20the%20world)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        You must be the change you wish to see in the world
 urlTranslation: tag/lifestyle.html
-Lifestyle: ""
+believe-and-act-as-if-it-were-impossible-to-fail: ""
+lifestyle: ""
+that-which-does-not-kill-us-makes-us-stronger: ""
+you-must-be-the-change-you-wish-to-see-in-the-world: ""

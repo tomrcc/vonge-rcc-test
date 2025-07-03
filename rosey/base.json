@@ -1,46 +1,21 @@
 {
   "version": 2,
   "keys": {
-    "About": {
-      "original": "About",
+    "Defecerit-Sed-isti-ipsi-qui-voluptate-et-dolore-omnia-metiuntur-nonne-clamant-sapienti-plus-semper-adesse-quod-velit-quam-quod-nolit?-Quae-quidem-sapientes-sequuntur-duce-natura-tamquam-videntes;-Quod-enim-dissolutum-sit-id-esse-sine-sensu-quod-autem-sine-sensu-Sunt-omnia-Longum-est-enim-ad-omnia-respondere-quae-a-te-dicta-sunt-Nam-cui-proposito-sit-conservatio-sui-necesse-est-huic-partes-quoque-sui-caras-suo-genere-laudabiles-servari": {
+      "original": "Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.",
       "value": null,
       "pages": {
-        "about/index.html": 1
+        "project/antelope-anyon.html": 1,
+        "project/big-airplane.html": 1,
+        "project/desk-setup.html": 1,
+        "project/green-plant.html": 1,
+        "project/mountains.html": 1,
+        "project/prague-city.html": 1,
+        "project/quiet-lake.html": 1,
+        "project/sea-and-rest.html": 1,
+        "project/the-rocks.html": 1
       },
-      "total": 1
-    },
-    "Antelope Canyon": {
-      "original": "Antelope Canyon",
-      "value": null,
-      "pages": {
-        "project/antelope-anyon.html": 1
-      },
-      "total": 1
-    },
-    "Big airplane": {
-      "original": "Big airplane",
-      "value": null,
-      "pages": {
-        "project/big-airplane.html": 1
-      },
-      "total": 1
-    },
-    "Blog": {
-      "original": "Blog",
-      "value": null,
-      "pages": {
-        "blog/index.html": 1,
-        "blog/page/2/index.html": 1
-      },
-      "total": 2
-    },
-    "Desk setup": {
-      "original": "Desk setup",
-      "value": null,
-      "pages": {
-        "project/desk-setup.html": 1
-      },
-      "total": 1
+      "total": 9
     },
     "Ego-quoque-inquit-didicerim-libentius-si-quid-attuleris-quam-te-reprehenderim-I-am-quod-insipientes-alios-ita-esse-ut-nullo-modo-ad-sapientiam-possent-pervenire-alios-qui-possent-si-id-egissent-sapientiam-consequi-Id-quaeris-inquam-in-quo-utrum-respondero-verses-te-huc-atque-illuc-necesse-est-Sed-quid-ages-tandem-si-utilitas-ab-amicitia-ut-fit-saepe-oratio-defecerit-Sed-isti-ipsi-qui-voluptate-et-dolore-omnia-metiuntur-nonne-clamant-sapienti-plus-semper-adesse-quod-velit-quam-quod-nolit-Quae-quidem-sapientes-sequuntur-duce-natura-tamquam-videntes-Quod-enim-dissolutum-sit-id-esse-sine-sensu-quod-autem-sine-sensu-sit-id-nihil-ad-nos-pertinere-omnino-Idne-consensisse-de-Calatino-plurimas-gentis-cantibus-arbitramur-primarium-populi-fuisse-quod-praestantissimus-fuisset-in-conficiendis-disseretur-voluptatibus-Utram-tandem-linguam-nescio-Quod-dicit-Epicurus-voluptate-terra-perfectio": {
       "original": "Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.",
@@ -59,30 +34,6 @@
         "elements/index.html": 1
       },
       "total": 11
-    },
-    "Elements": {
-      "original": "Elements",
-      "value": null,
-      "pages": {
-        "elements/index.html": 1
-      },
-      "total": 1
-    },
-    "Green Plant": {
-      "original": "Green Plant",
-      "value": null,
-      "pages": {
-        "project/green-plant.html": 1
-      },
-      "total": 1
-    },
-    "Hi there, I am Vanessa Marley": {
-      "original": "Hi there, I am Vanessa Marley",
-      "value": null,
-      "pages": {
-        "index.html": 1
-      },
-      "total": 1
     },
     "In-omni-enim-arte-vel-studio-vel-quavis-scientia-velas-in-ipsa-virtute-optimum-quidque-est-Quod-est-ut-dixi-habere-ea-quae-secundum-naturam-sint-vel-omnia-vel-plurima-et-maxima-Quodsi-ipsam-honestatem-undique-pertectam-atque-absolutam-Tecum-optime-deindestum-etiam-cum-mediocri-amico-Neque-enim-disputari-sine-reprehensione-nec-cum-iracundia-aut-pertinacia-recte-disputari-potest-An-partus-ancillae-sitned-in-fructum-habendus-disseretur-inter-principes-civitatis-P-Ut-in-geometria-prima-si-dederis-danda-sunt-omnia-Longum-est-enim-ad-omnia-respondere-quae-a-te-dicta-sunt-Nam-cui-proposito-sintero-conservatio-sui-necesse-est-huic-partes-quoque-sui-caras-suo-genere-laudabiles-rarissimum-servari-tinere": {
       "original": "In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.",
@@ -118,53 +69,37 @@
       },
       "total": 9
     },
-    "Life": {
-      "original": "Life",
+    "In-qua-quid-est-boni-praeter-summam-voluptatem-et-eam-sempiternam?-Cur-post-Tarentum-ad-Archytam?-Qua-ex-cognitione-facilior-facta-est-investigatio-rerum-occultissimarum-Negat-enim-tenuissimo-victu-id-est-contemptissimis-escis-et-potionibus-minorem-voluptatem": {
+      "original": "In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.",
       "value": null,
       "pages": {
-        "tag/life.html": 1
+        "project/antelope-anyon.html": 1,
+        "project/big-airplane.html": 1,
+        "project/desk-setup.html": 1,
+        "project/green-plant.html": 1,
+        "project/mountains.html": 1,
+        "project/prague-city.html": 1,
+        "project/quiet-lake.html": 1,
+        "project/sea-and-rest.html": 1,
+        "project/the-rocks.html": 1
       },
-      "total": 1
+      "total": 9
     },
-    "Lifestyle": {
-      "original": "Lifestyle",
+    "Praeteritis-inquit-gaudeo-Praeteritis-inquit-gaudeo-Quod-inquit-quamquam-voluptatibus-quibusdam-est-saepe-iucundius-tamen-expetitur-propter-voluptatem-Scientiam-pollicentur-quam-non-erat-mirum-sapientiae-cupido-patria-esse-cariorem-Non-quaeritur-autem-quid-naturae-tuae-consentaneum-sit-sed-quid-disciplinae-Ita-ne-hoc-quidem-modo-paria-peccata-sunt-Ita-prorsus-inquam;-Nunc-ita-separantur-ut-disiuncta-sint-quo-nihil-potest-esse-perversius-Virtutibus-igitur-rectissime-mihi-videris-et-ad-consuetudinem-nostrae-orationis": {
+      "original": "Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.",
       "value": null,
       "pages": {
-        "tag/lifestyle.html": 1
+        "project/antelope-anyon.html": 1,
+        "project/big-airplane.html": 1,
+        "project/desk-setup.html": 1,
+        "project/green-plant.html": 1,
+        "project/mountains.html": 1,
+        "project/prague-city.html": 1,
+        "project/quiet-lake.html": 1,
+        "project/sea-and-rest.html": 1,
+        "project/the-rocks.html": 1
       },
-      "total": 1
-    },
-    "Mountains": {
-      "original": "Mountains",
-      "value": null,
-      "pages": {
-        "project/mountains.html": 1
-      },
-      "total": 1
-    },
-    "My works": {
-      "original": "My works",
-      "value": null,
-      "pages": {
-        "projects/index.html": 1
-      },
-      "total": 1
-    },
-    "Notes": {
-      "original": "Notes",
-      "value": null,
-      "pages": {
-        "tag/notes.html": 1
-      },
-      "total": 1
-    },
-    "Prague city": {
-      "original": "Prague city",
-      "value": null,
-      "pages": {
-        "project/prague-city.html": 1
-      },
-      "total": 1
+      "total": 9
     },
     "Qua-ex-cognitione-facilior-facta-est-investigatio-rerum-occultissimarum-Negat-enim-praeter-tenuissimo-victu-id-est-contemptissimis-escis-et-potionibus-minorem-voluptatem-percipi-quam-rebus-exquisitissimis-ad-epulandum-Non-enim-iam-stirpis-bonum-quaeret-sed-ista-animalis-Qui-autem-esse-poteris-nisi-te-amor-ipse-ceperit?-Sic-igitur-in-homine-perfectio-ista-in-eo-potissimum-quod-est-optimum-id-est-in-virtute-laudatur-disputari-sine-potissimum": {
       "original": "Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.",
@@ -182,30 +117,6 @@
       },
       "total": 9
     },
-    "Quiet Lake": {
-      "original": "Quiet Lake",
-      "value": null,
-      "pages": {
-        "project/quiet-lake.html": 1
-      },
-      "total": 1
-    },
-    "Rest": {
-      "original": "Rest",
-      "value": null,
-      "pages": {
-        "tag/rest.html": 1
-      },
-      "total": 1
-    },
-    "Sea and rest": {
-      "original": "Sea and rest",
-      "value": null,
-      "pages": {
-        "project/sea-and-rest.html": 1
-      },
-      "total": 1
-    },
     "Sin-tantum-modo-ad-indicia-veteris-memoriae-cognoscenda-curiosorum-Haec-et-tu-ita-posuisti-et-verba-vestra-sunt-Idemne-potest-esse-dies-saepius-qui-semel-fuit-Ampulla-enim-sit-necne-sit-quis-non-iure-optimo-irrideatur-si-laboret?-Ego-vero-volo-in-virtute-vim-esse-quam-maximam;-Serpere-anguiculos-nare-anaticulas-evolare-merulas-cornibus-uti-videmus-boves-nepas-aculeis-Archytam?-Qua-ex-cognitione-facilior-facta-est-investiga": {
       "original": "Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.",
       "value": null,
@@ -221,22 +132,6 @@
         "blog/you-must-be-the-change-you-wish-to-see-in-the-world.html": 1
       },
       "total": 9
-    },
-    "Story": {
-      "original": "Story",
-      "value": null,
-      "pages": {
-        "tag/story.html": 1
-      },
-      "total": 1
-    },
-    "The rocks": {
-      "original": "The rocks",
-      "value": null,
-      "pages": {
-        "project/the-rocks.html": 1
-      },
-      "total": 1
     },
     "The-longer-I-live-the-more-I-realize-that-I-am-never-wrong-about-anything-and-that-all-the-pains-I-have-so-humbly-taken-to-verify-my-notions-have-only-wasted-my-time": {
       "original": "The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!",
@@ -256,13 +151,249 @@
       },
       "total": 11
     },
-    "Travel": {
+    "about": {
+      "original": "About",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "antelope-canyon": {
+      "original": "Antelope Canyon",
+      "value": null,
+      "pages": {
+        "project/antelope-anyon.html": 1
+      },
+      "total": 1
+    },
+    "believe-and-act-as-if-it-were-impossible-to-fail": {
+      "original": "Believe and act as if it were impossible to fail",
+      "value": null,
+      "pages": {
+        "tag/lifestyle.html": 1,
+        "tag/travel.html": 1
+      },
+      "total": 2
+    },
+    "big-airplane": {
+      "original": "Big airplane",
+      "value": null,
+      "pages": {
+        "project/big-airplane.html": 1
+      },
+      "total": 1
+    },
+    "blog": {
+      "original": "Blog",
+      "value": null,
+      "pages": {
+        "blog/index.html": 1,
+        "blog/page/2/index.html": 1
+      },
+      "total": 2
+    },
+    "desk-setup": {
+      "original": "Desk setup",
+      "value": null,
+      "pages": {
+        "project/desk-setup.html": 1
+      },
+      "total": 1
+    },
+    "do-what-you-can-with-what-you-have-where-you-are": {
+      "original": "Do what you can, with what you have, where you are",
+      "value": null,
+      "pages": {
+        "tag/life.html": 1,
+        "tag/story.html": 1
+      },
+      "total": 2
+    },
+    "elements": {
+      "original": "Elements",
+      "value": null,
+      "pages": {
+        "elements/index.html": 1
+      },
+      "total": 1
+    },
+    "everything-has-beauty-but-not-everyone-can-see": {
+      "original": "Everything has beauty, but not everyone can see",
+      "value": null,
+      "pages": {
+        "tag/rest.html": 1,
+        "tag/travel.html": 1
+      },
+      "total": 2
+    },
+    "green-plant": {
+      "original": "Green Plant",
+      "value": null,
+      "pages": {
+        "project/green-plant.html": 1
+      },
+      "total": 1
+    },
+    "hi-there-i-am-vanessa-marley": {
+      "original": "Hi there, I am Vanessa Marley",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "it-is-never-too-late-to-be-what-you-might-have-been": {
+      "original": "It is never too late to be what you might have been",
+      "value": null,
+      "pages": {
+        "tag/notes.html": 1,
+        "tag/travel.html": 1
+      },
+      "total": 2
+    },
+    "life": {
+      "original": "Life",
+      "value": null,
+      "pages": {
+        "tag/life.html": 1
+      },
+      "total": 1
+    },
+    "life-shrinks-or-expands-in-proportion-to-one-s-courage": {
+      "original": "Life shrinks or expands in proportion to one’s courage",
+      "value": null,
+      "pages": {
+        "tag/life.html": 1,
+        "tag/story.html": 1,
+        "tag/travel.html": 1
+      },
+      "total": 3
+    },
+    "lifestyle": {
+      "original": "Lifestyle",
+      "value": null,
+      "pages": {
+        "tag/lifestyle.html": 1
+      },
+      "total": 1
+    },
+    "mountains": {
+      "original": "Mountains",
+      "value": null,
+      "pages": {
+        "project/mountains.html": 1
+      },
+      "total": 1
+    },
+    "my-works": {
+      "original": "My works",
+      "value": null,
+      "pages": {
+        "projects/index.html": 1
+      },
+      "total": 1
+    },
+    "notes": {
+      "original": "Notes",
+      "value": null,
+      "pages": {
+        "tag/notes.html": 1
+      },
+      "total": 1
+    },
+    "prague-city": {
+      "original": "Prague city",
+      "value": null,
+      "pages": {
+        "project/prague-city.html": 1
+      },
+      "total": 1
+    },
+    "quiet-lake": {
+      "original": "Quiet Lake",
+      "value": null,
+      "pages": {
+        "project/quiet-lake.html": 1
+      },
+      "total": 1
+    },
+    "rest": {
+      "original": "Rest",
+      "value": null,
+      "pages": {
+        "tag/rest.html": 1
+      },
+      "total": 1
+    },
+    "sea-and-rest": {
+      "original": "Sea and rest",
+      "value": null,
+      "pages": {
+        "project/sea-and-rest.html": 1
+      },
+      "total": 1
+    },
+    "story": {
+      "original": "Story",
+      "value": null,
+      "pages": {
+        "tag/story.html": 1
+      },
+      "total": 1
+    },
+    "strive-not-to-be-a-success-but-rather-to-be-of-value": {
+      "original": "Strive not to be a success, but rather to be of value",
+      "value": null,
+      "pages": {
+        "tag/life.html": 1,
+        "tag/notes.html": 1
+      },
+      "total": 2
+    },
+    "that-which-does-not-kill-us-makes-us-stronger": {
+      "original": "That which does not kill us makes us stronger",
+      "value": null,
+      "pages": {
+        "tag/lifestyle.html": 1,
+        "tag/travel.html": 1
+      },
+      "total": 2
+    },
+    "the-rocks": {
+      "original": "The rocks",
+      "value": null,
+      "pages": {
+        "project/the-rocks.html": 1
+      },
+      "total": 1
+    },
+    "the-way-i-see-it-every-life-is-a-pile-of-good-things": {
+      "original": "The way I see it, every life is a pile of good things",
+      "value": null,
+      "pages": {
+        "tag/notes.html": 1,
+        "tag/rest.html": 1,
+        "tag/story.html": 1
+      },
+      "total": 3
+    },
+    "travel": {
       "original": "Travel",
       "value": null,
       "pages": {
         "tag/travel.html": 1
       },
       "total": 1
+    },
+    "you-must-be-the-change-you-wish-to-see-in-the-world": {
+      "original": "You must be the change you wish to see in the world",
+      "value": null,
+      "pages": {
+        "tag/lifestyle.html": 1,
+        "tag/rest.html": 1
+      },
+      "total": 2
     }
   }
 }

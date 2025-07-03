@@ -11,14 +11,14 @@ _inputs:
           comment: "[index.html](https://exotic-bison.cloudvent.net/index.html)  //  [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/home.yaml)"
-          inputs: []
+          inputs:
+            - hi-there-i-am-vanessa-marley
         - heading: Already translated (nl)
           comment: "[index.html](https://exotic-bison.cloudvent.net/index.html)  //  [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/home.yaml)"
-          inputs:
-            - Hi there, I am Vanessa Marley
-  Hi there, I am Vanessa Marley:
+          inputs: []
+  hi-there-i-am-vanessa-marley:
     label: Hi there, I am Vanessa Marley
     hidden: false
     type: textarea
@@ -27,4 +27,4 @@ _inputs:
       context](https://exotic-bison.cloudvent.net/index.html#:~:text=Hi%20there\
       ,%20I%20am%20Vanessa%20Marley)"
 urlTranslation: index.html
-Hi there, I am Vanessa Marley: Hallo, ik ben Vanessa Marley
+hi-there-i-am-vanessa-marley: ""

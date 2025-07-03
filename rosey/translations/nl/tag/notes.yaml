@@ -12,18 +12,66 @@ _inputs:
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/notes.yaml)"
           inputs:
-            - Notes
+            - it-is-never-too-late-to-be-what-you-might-have-been
+            - notes
+            - strive-not-to-be-a-success-but-rather-to-be-of-value
+            - the-way-i-see-it-every-life-is-a-pile-of-good-things
         - heading: Already translated (nl)
           comment: "[tag/notes](https://exotic-bison.cloudvent.net/tag/notes)  //  [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/notes.yaml)"
           inputs: []
-  Notes:
+  it-is-never-too-late-to-be-what-you-might-have-been:
+    label: It is never too late to be what you might ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/notes#:~:text=It%20is%20n\
+      ever,might%20have%20been)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        It is never too late to be what you might have been
+  notes:
     label: Notes
     hidden: false
     type: text
     options: {}
     comment: "[See in
       context](https://exotic-bison.cloudvent.net/tag/notes#:~:text=Notes)"
+  strive-not-to-be-a-success-but-rather-to-be-of-value:
+    label: Strive not to be a success, but rather to ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/notes#:~:text=Strive%20no\
+      t%20to,be%20of%20value)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Strive not to be a success, but rather to be of value
+  the-way-i-see-it-every-life-is-a-pile-of-good-things:
+    label: The way I see it, every life is a pile of ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/notes#:~:text=The%20way%2\
+      0I,of%20good%20things)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        The way I see it, every life is a pile of good things
 urlTranslation: tag/notes.html
-Notes: ""
+it-is-never-too-late-to-be-what-you-might-have-been: ""
+notes: ""
+strive-not-to-be-a-success-but-rather-to-be-of-value: ""
+the-way-i-see-it-every-life-is-a-pile-of-good-things: ""
