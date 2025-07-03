@@ -1,0 +1,20 @@
+_inputs:
+  $:
+    type: object
+    comment: "[tag/life](https://adjective-noun.cloudvent.net/tag/life)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/tag/life.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[tag/life](https://adjective-noun.cloudvent.net/tag/life)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/life.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[tag/life](https://adjective-noun.cloudvent.net/tag/life)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/life.yaml)"
+          inputs: []
+urlTranslation: tag/life.html

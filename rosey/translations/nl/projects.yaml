@@ -1,0 +1,20 @@
+_inputs:
+  $:
+    type: object
+    comment: "[projects/](https://adjective-noun.cloudvent.net/projects/)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/projects.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[projects/](https://adjective-noun.cloudvent.net/projects/)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/projects.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[projects/](https://adjective-noun.cloudvent.net/projects/)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/projects.yaml)"
+          inputs: []
+urlTranslation: projects/index.html

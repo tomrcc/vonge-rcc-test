@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[tag/travel](https://adjective-noun.cloudvent.net/tag/travel)  //  [G\
+      it
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/tag/travel.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[tag/travel](https://adjective-noun.cloudvent.net/tag/travel)  //  [G\
+            it
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/travel.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[tag/travel](https://adjective-noun.cloudvent.net/tag/travel)  //  [G\
+            it
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/travel.yaml)"
+          inputs: []
+urlTranslation: tag/travel.html

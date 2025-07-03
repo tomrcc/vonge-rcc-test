@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/big-airplane](https://adjective-noun.cloudvent.net/project/b\
+      ig-airplane)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/project/big-airplane.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/big-airplane](https://adjective-noun.cloudvent.net/project/b\
+            ig-airplane)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/big-airplane.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[project/big-airplane](https://adjective-noun.cloudvent.net/project/b\
+            ig-airplane)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/big-airplane.yaml)"
+          inputs: []
+urlTranslation: project/big-airplane.html

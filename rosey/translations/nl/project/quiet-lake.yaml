@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/quiet-lake](https://adjective-noun.cloudvent.net/project/qui\
+      et-lake)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/project/quiet-lake.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/quiet-lake](https://adjective-noun.cloudvent.net/project/qui\
+            et-lake)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/quiet-lake.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[project/quiet-lake](https://adjective-noun.cloudvent.net/project/qui\
+            et-lake)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/quiet-lake.yaml)"
+          inputs: []
+urlTranslation: project/quiet-lake.html

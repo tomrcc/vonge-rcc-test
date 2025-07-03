@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/antelope-anyon](https://adjective-noun.cloudvent.net/project\
+      /antelope-anyon)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/project/antelope-anyon.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/antelope-anyon](https://adjective-noun.cloudvent.net/project\
+            /antelope-anyon)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/antelope-anyon.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[project/antelope-anyon](https://adjective-noun.cloudvent.net/project\
+            /antelope-anyon)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/antelope-anyon.yaml)"
+          inputs: []
+urlTranslation: project/antelope-anyon.html

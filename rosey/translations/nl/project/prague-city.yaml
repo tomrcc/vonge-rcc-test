@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/prague-city](https://adjective-noun.cloudvent.net/project/pr\
+      ague-city)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/project/prague-city.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/prague-city](https://adjective-noun.cloudvent.net/project/pr\
+            ague-city)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/prague-city.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[project/prague-city](https://adjective-noun.cloudvent.net/project/pr\
+            ague-city)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/prague-city.yaml)"
+          inputs: []
+urlTranslation: project/prague-city.html

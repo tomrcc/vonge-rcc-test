@@ -1,0 +1,28 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/do-what-you-can-with-what-you-have-where-you-are](https://adjec\
+      tive-noun.cloudvent.net/blog/do-what-you-can-with-what-you-have-where-you\
+      -are)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/blog/do-what-you-can-with-what-you-have-where-you-are.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/do-what-you-can-with-what-you-have-where-you-are](https://adjec\
+            tive-noun.cloudvent.net/blog/do-what-you-can-with-what-you-have-whe\
+            re-you-are)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/do-what-you-can-with-what-you-have-where-you-are.yam\
+            l)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/do-what-you-can-with-what-you-have-where-you-are](https://adjec\
+            tive-noun.cloudvent.net/blog/do-what-you-can-with-what-you-have-whe\
+            re-you-are)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/do-what-you-can-with-what-you-have-where-you-are.yam\
+            l)"
+          inputs: []
+urlTranslation: blog/do-what-you-can-with-what-you-have-where-you-are.html

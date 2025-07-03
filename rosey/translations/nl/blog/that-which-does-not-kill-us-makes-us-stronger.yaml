@@ -1,0 +1,26 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/that-which-does-not-kill-us-makes-us-stronger](https://adjectiv\
+      e-noun.cloudvent.net/blog/that-which-does-not-kill-us-makes-us-stronger)  \
+      //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/blog/that-which-does-not-kill-us-makes-us-stronger.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/that-which-does-not-kill-us-makes-us-stronger](https://adjectiv\
+            e-noun.cloudvent.net/blog/that-which-does-not-kill-us-makes-us-stro\
+            nger)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/that-which-does-not-kill-us-makes-us-stronger.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/that-which-does-not-kill-us-makes-us-stronger](https://adjectiv\
+            e-noun.cloudvent.net/blog/that-which-does-not-kill-us-makes-us-stro\
+            nger)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/that-which-does-not-kill-us-makes-us-stronger.yaml)"
+          inputs: []
+urlTranslation: blog/that-which-does-not-kill-us-makes-us-stronger.html

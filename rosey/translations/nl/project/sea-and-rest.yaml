@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/sea-and-rest](https://adjective-noun.cloudvent.net/project/s\
+      ea-and-rest)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/project/sea-and-rest.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/sea-and-rest](https://adjective-noun.cloudvent.net/project/s\
+            ea-and-rest)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/sea-and-rest.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[project/sea-and-rest](https://adjective-noun.cloudvent.net/project/s\
+            ea-and-rest)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/sea-and-rest.yaml)"
+          inputs: []
+urlTranslation: project/sea-and-rest.html

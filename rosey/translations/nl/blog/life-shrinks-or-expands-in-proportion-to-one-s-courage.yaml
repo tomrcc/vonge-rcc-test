@@ -1,0 +1,28 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/life-shrinks-or-expands-in-proportion-to-one-s-courage](https:/\
+      /adjective-noun.cloudvent.net/blog/life-shrinks-or-expands-in-proportion-\
+      to-one-s-courage)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/blog/life-shrinks-or-expands-in-proportion-to-one-s-courage.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/life-shrinks-or-expands-in-proportion-to-one-s-courage](https:/\
+            /adjective-noun.cloudvent.net/blog/life-shrinks-or-expands-in-propo\
+            rtion-to-one-s-courage)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/life-shrinks-or-expands-in-proportion-to-one-s-coura\
+            ge.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/life-shrinks-or-expands-in-proportion-to-one-s-courage](https:/\
+            /adjective-noun.cloudvent.net/blog/life-shrinks-or-expands-in-propo\
+            rtion-to-one-s-courage)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/life-shrinks-or-expands-in-proportion-to-one-s-coura\
+            ge.yaml)"
+          inputs: []
+urlTranslation: blog/life-shrinks-or-expands-in-proportion-to-one-s-courage.html

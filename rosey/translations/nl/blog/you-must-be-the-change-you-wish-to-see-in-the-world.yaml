@@ -1,0 +1,28 @@
+_inputs:
+  $:
+    type: object
+    comment: "[blog/you-must-be-the-change-you-wish-to-see-in-the-world](https://ad\
+      jective-noun.cloudvent.net/blog/you-must-be-the-change-you-wish-to-see-in\
+      -the-world)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/blog/you-must-be-the-change-you-wish-to-see-in-the-world.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[blog/you-must-be-the-change-you-wish-to-see-in-the-world](https://ad\
+            jective-noun.cloudvent.net/blog/you-must-be-the-change-you-wish-to-\
+            see-in-the-world)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/you-must-be-the-change-you-wish-to-see-in-the-world.\
+            yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[blog/you-must-be-the-change-you-wish-to-see-in-the-world](https://ad\
+            jective-noun.cloudvent.net/blog/you-must-be-the-change-you-wish-to-\
+            see-in-the-world)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/blog/you-must-be-the-change-you-wish-to-see-in-the-world.\
+            yaml)"
+          inputs: []
+urlTranslation: blog/you-must-be-the-change-you-wish-to-see-in-the-world.html

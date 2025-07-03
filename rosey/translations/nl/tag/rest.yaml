@@ -1,0 +1,20 @@
+_inputs:
+  $:
+    type: object
+    comment: "[tag/rest](https://adjective-noun.cloudvent.net/tag/rest)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/tag/rest.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[tag/rest](https://adjective-noun.cloudvent.net/tag/rest)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/rest.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[tag/rest](https://adjective-noun.cloudvent.net/tag/rest)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/rest.yaml)"
+          inputs: []
+urlTranslation: tag/rest.html

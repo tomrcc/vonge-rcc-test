@@ -1,0 +1,23 @@
+_inputs:
+  $:
+    type: object
+    comment: "[project/desk-setup](https://adjective-noun.cloudvent.net/project/des\
+      k-setup)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/project/desk-setup.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[project/desk-setup](https://adjective-noun.cloudvent.net/project/des\
+            k-setup)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/desk-setup.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[project/desk-setup](https://adjective-noun.cloudvent.net/project/des\
+            k-setup)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/project/desk-setup.yaml)"
+          inputs: []
+urlTranslation: project/desk-setup.html

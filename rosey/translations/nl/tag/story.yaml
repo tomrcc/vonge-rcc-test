@@ -1,0 +1,20 @@
+_inputs:
+  $:
+    type: object
+    comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
+      history](https://github.com/org/repo/commits/staging/./rosey/translations\
+      /nl/tag/story.yaml)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (nl)
+          comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/story.yaml)"
+          inputs: []
+        - heading: Already translated (nl)
+          comment: "[tag/story](https://adjective-noun.cloudvent.net/tag/story)  //  [Git
+            history](https://github.com/org/repo/commits/staging/./rosey/transl\
+            ations/nl/tag/story.yaml)"
+          inputs: []
+urlTranslation: tag/story.html
