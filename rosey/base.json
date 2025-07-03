@@ -1,4 +1,13 @@
 {
   "version": 2,
-  "keys": {}
+  "keys": {
+    "Hi there, I am Vanessa Marley": {
+      "original": "Hi there, I am Vanessa Marley",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    }
+  }
 }
