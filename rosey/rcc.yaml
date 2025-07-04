@@ -43,7 +43,7 @@ _inputs:
         icon: format_quote
         text: Label and Textarea controls
         subtext: 
-          - template: "Label: {label}\n Textarea: {textarea}"
+          - template: "Label: {label}, Textarea: {textarea}"
   see_on_page_comment:
     type: object
     options:
