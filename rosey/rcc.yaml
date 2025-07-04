@@ -97,6 +97,8 @@ _inputs:
     options:
       preview:
         icon: smart_toy
+        text:
+          - template: "{'Enabled'|if=enabled|default='Disabled'}"
   smartling_enabled:
     type: switch
     comment: >-
