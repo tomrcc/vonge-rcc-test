@@ -80,6 +80,7 @@ _inputs:
     options:
       preview:
         icon: folder
+        text: Configure the paths the RCC expects files at
   rosey_base_file_path:
     type: text
     comment: The location of your Rosey base.json file
