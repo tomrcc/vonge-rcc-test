@@ -30,6 +30,12 @@ smartling:
   outgoing_translations_file_path: ./rosey/outgoing-smartling-translations.json
   outgoing_translation_file_uri: /rosey/translations/
 _inputs:
+  $:
+    type: object
+    label: RCC Config
+    options:
+      preview:
+        icon: settings
   locales:
     type: array
     comment: >-
