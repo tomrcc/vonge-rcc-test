@@ -17,7 +17,7 @@ export function configWarnings(configData) {
     }
   }
   // If no github history url is set
-  const githubHistory = configData.github_history;
+  const githubHistory = configData.git_history_link;
   const defaultGitHubUrl = "https://github.com/org/repo";
   if (githubHistory.enabled) {
     if (

@@ -23,7 +23,7 @@ see_on_page_comment:
   comment_text: See in context
 
 # Shows a comment under each input that links to the GitHub history for the page.
-github_history:
+git_history_link:
   # Define whether these 'Git history' comments should be enabled at all.
   enabled: true
   # Your site's GitHub url, used to generate the comments that link to the page's GitHub history.

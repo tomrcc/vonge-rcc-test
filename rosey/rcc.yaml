@@ -7,7 +7,7 @@ see_on_page_comment:
   enabled: true
   base_url: https://exotic-bison.cloudvent.net/
   comment_text: See in context
-github_history:
+git_history_link:
   enabled: true
   repo_url: https://github.com/tomrcc/vonge-rcc-test
   branch_name: staging
@@ -52,7 +52,16 @@ _inputs:
         text:
           - template: "{'Enabled'|if=enabled|default='Disabled'}"
         subtext:
-          - template: "{comment_text|if=enabled}"
+          - template: "Link text: {comment_text}, Site url: {base_url}"
+  git_history_link:
+    type: object
+    options:
+      preview:
+        icon: history
+        text:
+          - template: "{'Enabled'|if=enabled|default='Disabled'}"
+        subtext:
+          - template: "Link text: {comment_text}, Repo url: {repo_url}"
   namespace_pages:
     type: array
     comment: >-
