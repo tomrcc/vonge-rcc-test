@@ -73,7 +73,7 @@ const blockLevelElements = [
 
 // Main function
 (async () => {
-  console.log("🔎 Beginning tagging of html files...");
+  console.log("🖍️ Beginning tagging of html files...");
 
   // Checks for --source flag and if it has a value
   const sourceIndex = process.argv.indexOf("--source");
@@ -90,30 +90,40 @@ const blockLevelElements = [
     );
   }
 
+  let allowLogs = false;
+  // Check for --verbose flag and if it's there display logs
+  if (process.argv.includes("--verbose")) {
+    allowLogs = true;
+  }
+
   // Walk the build dir
-  await walkDirs(sourceDir);
+  await walkDirs(sourceDir, allowLogs);
+
+  console.log("🖍️ Finished tagging of html files...");
 })();
 
 // Walk dirs to find .html files, and if it finds a dir recursively calls itself on that dir
-async function walkDirs(dirToTagPath) {
+async function walkDirs(dirToTagPath, allowLogs) {
   const dirToTagFiles = await fs.promises.readdir(dirToTagPath);
   for (const fileName of dirToTagFiles) {
     const filePath = path.join(dirToTagPath, fileName);
     // If its an html file look for places to add data-rosey tags
     if (filePath.endsWith(".html")) {
-      await readTagAndWriteHtmlFile(filePath);
+      await readTagAndWriteHtmlFile(filePath, allowLogs);
     } else {
       // If it's a dir recursively call this fn
       const filePathIsDir = await isDirectory(filePath);
       if (filePathIsDir) {
-        await walkDirs(filePath);
+        await walkDirs(filePath, allowLogs);
       }
     }
   }
 }
 
-async function readTagAndWriteHtmlFile(filePath) {
-  console.log(`\nLooking for tags to add on ${filePath}`);
+async function readTagAndWriteHtmlFile(filePath, allowLogs) {
+  if (allowLogs) {
+    console.log(`\nLooking for tags to add on ${filePath}`);
+  }
   const htmlToParse = await fs.promises.readFile(filePath, "utf8");
 
   // Create the obj path in logStatistics where we will add the tagName
@@ -134,50 +144,54 @@ async function readTagAndWriteHtmlFile(filePath) {
 
   const file = await unified()
     .use(rehypeParse)
-    .use(tagHtmlWithDataTags, { filePath: filePath })
+    .use(tagHtmlWithDataTags, { filePath: filePath, allowLogs: allowLogs })
     .use(rehypeStringify)
     .use(rehypeFormat)
     .process(htmlToParse);
 
-  // Log out the stats from the tagging
-  console.log(`\n---Tagging Statistics---`);
+  if (allowLogs) {
+    // Log out the stats from the tagging
+    console.log(`\n---Tagging Statistics---`);
 
-  const tagsAddedForThisPage = logStatistics[filePath].tagsAdded;
-  if (Object.keys(tagsAddedForThisPage).length === 0) {
-    console.log(`\nNo tags added.`);
-  } else {
-    console.log("\nBlock level elements:");
-    for (const blockElement of Object.keys(tagsAddedForThisPage)) {
-      console.log(`- ${blockElement}: ${tagsAddedForThisPage[blockElement]}`);
+    const tagsAddedForThisPage = logStatistics[filePath].tagsAdded;
+    if (Object.keys(tagsAddedForThisPage).length === 0) {
+      console.log(`\nNo tags added.`);
+    } else {
+      console.log("\nBlock level elements:");
+      for (const blockElement of Object.keys(tagsAddedForThisPage)) {
+        console.log(`- ${blockElement}: ${tagsAddedForThisPage[blockElement]}`);
+      }
     }
-  }
 
-  const inlineElementsExtractedOnPage =
-    logStatistics[filePath].inlineElementsFound;
+    const inlineElementsExtractedOnPage =
+      logStatistics[filePath].inlineElementsFound;
 
-  if (
-    inlineElementsExtractedOnPage &&
-    Object.keys(inlineElementsExtractedOnPage).length === 0
-  ) {
-    console.log(
-      `\nNo inline elements in any of the block level elements we tagged.`
-    );
-  } else {
-    console.log("\nFound and extracted text from inline elements:");
-    for (const inlineElement of Object.keys(inlineElementsExtractedOnPage)) {
+    if (
+      inlineElementsExtractedOnPage &&
+      Object.keys(inlineElementsExtractedOnPage).length === 0
+    ) {
       console.log(
-        `- ${inlineElement}: ${inlineElementsExtractedOnPage[inlineElement]}`
+        `\nNo inline elements in any of the block level elements we tagged.`
       );
+    } else {
+      console.log("\nFound and extracted text from inline elements:");
+      for (const inlineElement of Object.keys(inlineElementsExtractedOnPage)) {
+        console.log(
+          `- ${inlineElement}: ${inlineElementsExtractedOnPage[inlineElement]}`
+        );
+      }
     }
   }
 
   // Write tagged file
   await fs.promises.writeFile(filePath, file.value);
-  console.log(`\n🖍️  Finished walking page, and wrote file: ${filePath}`);
-  console.log(`---------------------------------------------\n\n`);
+  if (allowLogs) {
+    console.log(`\n🖍️  Finished walking page, and wrote file: ${filePath}`);
+    console.log(`---------------------------------------------\n\n`);
+  }
 }
 
-function tagHtmlWithDataTags({ filePath }) {
+function tagHtmlWithDataTags({ filePath, allowLogs }) {
   /**
    * @param {Root} tree
    */
@@ -186,9 +200,11 @@ function tagHtmlWithDataTags({ filePath }) {
     visit(tree, "element", function (node) {
       // Check for the tag name we're looking for on any html element
       if (Object.keys(node.properties).includes(tagNameToLookFor)) {
-        console.log(
-          `Found the tag we're looking for on the \<${node.tagName}> element on line ${node.position.start.line}, walking contents now...`
-        );
+        if (allowLogs) {
+          console.log(
+            `Found the tag we're looking for on the \<${node.tagName}> element on line ${node.position.start.line}, walking contents now...`
+          );
+        }
         // Walk the contents of the element we find the tag on
         walkChildren(node, filePath);
       }
