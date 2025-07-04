@@ -33,10 +33,7 @@ import { isDirectory } from "../rosey-connector/helpers/file-helpers.mjs";
 const tagNameToLookFor = "dataRoseyTagger";
 const disallowedIdChars = /[*+~.()'",#%^!:@]/g;
 
-const logStatistics = {
-  tagsAdded: {},
-  inlineElementsFound: {},
-};
+const logStatistics = {};
 
 // Used for checking whether there are further nested elements in an element
 // If any of these are the children in an element, we know to keep walking
@@ -90,38 +87,63 @@ const blockLevelElements = [
     );
   }
 
-  let allowLogs = false;
+  let verboseLogs = false;
   // Check for --verbose flag and if it's there display logs
   if (process.argv.includes("--verbose")) {
-    allowLogs = true;
+    verboseLogs = true;
   }
 
   // Walk the build dir
-  await walkDirs(sourceDir, allowLogs);
+  await walkDirs(sourceDir, verboseLogs);
+
+  // Condensed log stats
+  let totalPagesAddedTagsOn = 0;
+  let totalTagsAdded = 0;
+
+  for (const loggedPage of Object.keys(logStatistics)) {
+    const loggedPageStats = logStatistics[loggedPage];
+
+    if (Object.keys(loggedPageStats.tagsAdded).length) {
+      totalPagesAddedTagsOn += 1;
+    }
+
+    const tagsAddedOnPage = loggedPageStats.tagsAdded;
+    for (const tagsOnPage of Object.keys(tagsAddedOnPage)) {
+      totalTagsAdded += tagsAddedOnPage[tagsOnPage];
+    }
+  }
+
+  if (totalTagsAdded > 0) {
+    console.log(
+      `Added ${totalTagsAdded} data-rosey tags on ${totalPagesAddedTagsOn} pages.`
+    );
+  } else {
+    console.log(`No data-rosey tags added.`);
+  }
 
   console.log("🖍️ Finished tagging of html files...");
 })();
 
 // Walk dirs to find .html files, and if it finds a dir recursively calls itself on that dir
-async function walkDirs(dirToTagPath, allowLogs) {
+async function walkDirs(dirToTagPath, verboseLogs) {
   const dirToTagFiles = await fs.promises.readdir(dirToTagPath);
   for (const fileName of dirToTagFiles) {
     const filePath = path.join(dirToTagPath, fileName);
     // If its an html file look for places to add data-rosey tags
     if (filePath.endsWith(".html")) {
-      await readTagAndWriteHtmlFile(filePath, allowLogs);
+      await readTagAndWriteHtmlFile(filePath, verboseLogs);
     } else {
       // If it's a dir recursively call this fn
       const filePathIsDir = await isDirectory(filePath);
       if (filePathIsDir) {
-        await walkDirs(filePath, allowLogs);
+        await walkDirs(filePath, verboseLogs);
       }
     }
   }
 }
 
-async function readTagAndWriteHtmlFile(filePath, allowLogs) {
-  if (allowLogs) {
+async function readTagAndWriteHtmlFile(filePath, verboseLogs) {
+  if (verboseLogs) {
     console.log(`\nLooking for tags to add on ${filePath}`);
   }
   const htmlToParse = await fs.promises.readFile(filePath, "utf8");
@@ -144,12 +166,12 @@ async function readTagAndWriteHtmlFile(filePath, allowLogs) {
 
   const file = await unified()
     .use(rehypeParse)
-    .use(tagHtmlWithDataTags, { filePath: filePath, allowLogs: allowLogs })
+    .use(tagHtmlWithDataTags, { filePath: filePath, verboseLogs: verboseLogs })
     .use(rehypeStringify)
     .use(rehypeFormat)
     .process(htmlToParse);
 
-  if (allowLogs) {
+  if (verboseLogs) {
     // Log out the stats from the tagging
     console.log(`\n---Tagging Statistics---`);
 
@@ -185,13 +207,13 @@ async function readTagAndWriteHtmlFile(filePath, allowLogs) {
 
   // Write tagged file
   await fs.promises.writeFile(filePath, file.value);
-  if (allowLogs) {
+  if (verboseLogs) {
     console.log(`\n🖍️  Finished walking page, and wrote file: ${filePath}`);
     console.log(`---------------------------------------------\n\n`);
   }
 }
 
-function tagHtmlWithDataTags({ filePath, allowLogs }) {
+function tagHtmlWithDataTags({ filePath, verboseLogs }) {
   /**
    * @param {Root} tree
    */
@@ -200,7 +222,7 @@ function tagHtmlWithDataTags({ filePath, allowLogs }) {
     visit(tree, "element", function (node) {
       // Check for the tag name we're looking for on any html element
       if (Object.keys(node.properties).includes(tagNameToLookFor)) {
-        if (allowLogs) {
+        if (verboseLogs) {
           console.log(
             `Found the tag we're looking for on the \<${node.tagName}> element on line ${node.position.start.line}, walking contents now...`
           );
