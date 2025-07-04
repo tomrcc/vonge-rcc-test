@@ -52,7 +52,7 @@ _inputs:
         text:
           - template: "{'Enabled'|if=enabled|default='Disabled'}"
         subtext:
-          - templated: "{comment_text|if=enabled}"
+          - template: "{comment_text|if=enabled}"
   namespace_pages:
     type: array
     comment: >-
