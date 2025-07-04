@@ -12,13 +12,88 @@ _inputs:
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/travel.yaml)"
           inputs:
-            - Travel
+            - believe-and-act-as-if-it-were-impossible-to-fail
+            - everything-has-beauty-but-not-everyone-can-see
+            - it-is-never-too-late-to-be-what-you-might-have-been
+            - life-shrinks-or-expands-in-proportion-to-one-s-courage
+            - that-which-does-not-kill-us-makes-us-stronger
+            - travel
         - heading: Already translated (nl)
           comment: "[tag/travel](https://exotic-bison.cloudvent.net/tag/travel)  //  [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/travel.yaml)"
           inputs: []
-  Travel:
+  believe-and-act-as-if-it-were-impossible-to-fail:
+    label: Believe and act as if it were impossible t...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/travel#:~:text=Believe%20\
+      and%20act,impossible%20to%20fail)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Believe and act as if it were impossible to fail
+  everything-has-beauty-but-not-everyone-can-see:
+    label: Everything has beauty, but not everyone ca...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/travel#:~:text=Everything\
+      %20has%20beauty,everyone%20can%20see)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Everything has beauty, but not everyone can see
+  it-is-never-too-late-to-be-what-you-might-have-been:
+    label: It is never too late to be what you might ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/travel#:~:text=It%20is%20\
+      never,might%20have%20been)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        It is never too late to be what you might have been
+  life-shrinks-or-expands-in-proportion-to-one-s-courage:
+    label: Life shrinks or expands in proportion to o...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/travel#:~:text=Life%20shr\
+      inks%20or,to%20one%E2%80%99s%20courage)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Life shrinks or expands in proportion to one’s courage
+  that-which-does-not-kill-us-makes-us-stronger:
+    label: That which does not kill us makes us stron...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/travel#:~:text=That%20whi\
+      ch%20does,makes%20us%20stronger)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        That which does not kill us makes us stronger
+  travel:
     label: Travel
     hidden: false
     type: text
@@ -26,4 +101,9 @@ _inputs:
     comment: "[See in
       context](https://exotic-bison.cloudvent.net/tag/travel#:~:text=Travel)"
 urlTranslation: tag/travel.html
-Travel: ""
+believe-and-act-as-if-it-were-impossible-to-fail: ""
+everything-has-beauty-but-not-everyone-can-see: ""
+it-is-never-too-late-to-be-what-you-might-have-been: ""
+life-shrinks-or-expands-in-proportion-to-one-s-courage: ""
+that-which-does-not-kill-us-makes-us-stronger: ""
+travel: ""

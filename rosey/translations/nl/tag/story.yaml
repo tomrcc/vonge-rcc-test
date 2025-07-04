@@ -12,18 +12,66 @@ _inputs:
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/story.yaml)"
           inputs:
-            - Story
+            - do-what-you-can-with-what-you-have-where-you-are
+            - life-shrinks-or-expands-in-proportion-to-one-s-courage
+            - story
+            - the-way-i-see-it-every-life-is-a-pile-of-good-things
         - heading: Already translated (nl)
           comment: "[tag/story](https://exotic-bison.cloudvent.net/tag/story)  //  [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/tag/story.yaml)"
           inputs: []
-  Story:
+  do-what-you-can-with-what-you-have-where-you-are:
+    label: Do what you can, with what you have, where...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/story#:~:text=Do%20what%2\
+      0you,where%20you%20are)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Do what you can, with what you have, where you are
+  life-shrinks-or-expands-in-proportion-to-one-s-courage:
+    label: Life shrinks or expands in proportion to o...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/story#:~:text=Life%20shri\
+      nks%20or,to%20one%E2%80%99s%20courage)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        Life shrinks or expands in proportion to one’s courage
+  story:
     label: Story
     hidden: false
     type: text
     options: {}
     comment: "[See in
       context](https://exotic-bison.cloudvent.net/tag/story#:~:text=Story)"
+  the-way-i-see-it-every-life-is-a-pile-of-good-things:
+    label: The way I see it, every life is a pile of ...
+    hidden: false
+    type: textarea
+    options: {}
+    comment: "[See in
+      context](https://exotic-bison.cloudvent.net/tag/story#:~:text=The%20way%2\
+      0I,of%20good%20things)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: |
+        The way I see it, every life is a pile of good things
 urlTranslation: tag/story.html
-Story: ""
+do-what-you-can-with-what-you-have-where-you-are: ""
+life-shrinks-or-expands-in-proportion-to-one-s-courage: ""
+story: ""
+the-way-i-see-it-every-life-is-a-pile-of-good-things: ""

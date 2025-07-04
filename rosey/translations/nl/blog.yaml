@@ -12,17 +12,17 @@ _inputs:
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/blog.yaml)"
           inputs:
-            - Blog
+            - blog
         - heading: Already translated (nl)
           comment: "[blog/](https://exotic-bison.cloudvent.net/blog/)  //  [Git
             history](https://github.com/tomrcc/vonge-rcc-test/commits/staging/.\
             /rosey/translations/nl/blog.yaml)"
           inputs: []
-  Blog:
+  blog:
     label: Blog
     hidden: false
     type: text
     options: {}
     comment: "[See in context](https://exotic-bison.cloudvent.net/blog/#:~:text=Blog)"
 urlTranslation: blog/index.html
-Blog: ""
+blog: ""
